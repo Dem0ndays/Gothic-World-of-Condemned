@@ -45,7 +45,7 @@ instance PC_MEATBUGRAGOUT(C_Info)
 	condition = pc_meatbugragout_condition;
 	information = pc_meatbugragout_info;
 	permanent = 1;
-	description = "Potrawka z chrz¹szcza (2x owadzie miêso, 1x piekielnik)";
+	description = "Meatbug ragout (2x Bugmeat, 1x Hell Mushrooms)";
 };
 
 
@@ -64,11 +64,11 @@ func void pc_meatbugragout_info()
 		Npc_RemoveInvItems(hero,ItAt_Meatbug_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_mushroom_01,4);
 		CreateInvItems(hero,ItFoMeatbugragout,1);
-		PrintScreen("Przyrz¹dzono potrawkê z chrz¹szcza!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Meatbug ragout prepared!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Brak wystarczaj¹cej iloœci sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough ingredients!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -82,7 +82,7 @@ instance PC_SOUP(C_Info)
 	condition = pc_soup_condition;
 	information = pc_soup_info;
 	permanent = 1;
-	description = "Zupa korzenna (2x twardzieñ, 1x orkowe ziele)";
+	description = "Root Soup (2x Stoneroot, 1x Orc Leaf)";
 };
 
 
@@ -101,11 +101,11 @@ func void pc_soup_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Stoneroot_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,1);
 		CreateInvItems(hero,ItFoSoup,1);
-		PrintScreen("Przygotowano zupê korzenn¹!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Root Soup prepared!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Brak wystarczaj¹cej iloœci sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough ingredients!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -119,7 +119,7 @@ instance PC_CRAWLERSOUP(C_Info)
 	condition = pc_crawlersoup_condition;
 	information = pc_crawlersoup_info;
 	permanent = 1;
-	description = "Zupa z pe³zacza (1x wnêtrznoœci pe³zacza, 2x orkowe ziele)";
+	description = "Minecrawler Soup (1x Mandibles of a Crawler, 2x Orc Leaf)";
 };
 
 
@@ -138,11 +138,11 @@ func void pc_crawlersoup_info()
 		Npc_RemoveInvItems(hero,ItAt_Crawler_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,2);
 		CreateInvItems(hero,ItFoCrawlersoup,1);
-		PrintScreen("Przygotowano zupê z pe³zacza!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Minecrawler Soup prepared!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Brak wystarczaj¹cej iloœci sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough ingredients!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -156,7 +156,7 @@ instance PC_RICE(C_Info)
 	condition = pc_rice_condition;
 	information = pc_rice_info;
 	permanent = 1;
-	description = "Ry¿ (1x woda, 2x ry¿ siewny)";
+	description = "Rice (1x Water, 2x Rice Plant)";
 };
 
 
@@ -175,11 +175,11 @@ func void pc_rice_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,itmi_plants_rice_01,2);
 		CreateInvItems(hero,ItFoRice,1);
-		PrintScreen("Przygotowano ry¿!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Rice prepared!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Brak wystarczaj¹cej iloœci sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough ingredients!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
