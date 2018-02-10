@@ -51,7 +51,7 @@ instance PC_HEALTH_START(C_Info)
 	condition = pc_health_start_condition;
 	information = pc_health_start_info;
 	permanent = TRUE;
-	description = "Uwarz mikstury lecznicze.";
+	description = "Brew healing potions.";
 };
 
 
@@ -100,7 +100,7 @@ instance PC_HEAL1(C_Info)
 	condition = pc_heal1_condition;
 	information = pc_heal1_info;
 	permanent = 1;
-	description = "Esencja uzdrawiaj¹ca";
+	description = "Essence of Healing";
 };
 
 
@@ -119,11 +119,11 @@ func void pc_heal1_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_01,1);
 		CreateInvItems(hero,ItFo_Potion_Health_01,1);
-		PrintScreen("Przygotowano esencjê uzdrawiaj¹c¹!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -137,7 +137,7 @@ instance PC_HEAL2(C_Info)
 	condition = pc_heal2_condition;
 	information = pc_heal2_info;
 	permanent = 1;
-	description = "Wyci¹g uzdrawiaj¹cy";
+	description = "Extract of Healing";
 };
 
 
@@ -157,11 +157,11 @@ func void pc_heal2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_02,1);
 		CreateInvItems(hero,ItFo_Potion_Health_02,1);
-		PrintScreen("Przygotowano wyci¹g uzdrawiaj¹cy!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -175,7 +175,7 @@ instance PC_HEAL3(C_Info)
 	condition = pc_heal3_condition;
 	information = pc_heal3_info;
 	permanent = 1;
-	description = "Eliksir uzdrawiaj¹cy";
+	description = "Elixir of Healing";
 };
 
 
@@ -194,12 +194,12 @@ func void pc_heal3_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_02,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_03,1);
-		CreateInvItems(hero,ItFo_Potion_Health_02,1);
-		PrintScreen("Przygotowano eliksir uzdrawiaj¹cy!",-1,-1,"font_old_20_white.tga",1);
+		CreateInvItems(hero,ItFo_Potion_Health_03,1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -214,7 +214,7 @@ instance PC_MANA_START(C_Info)
 	condition = pc_mana_start_condition;
 	information = pc_mana_start_info;
 	permanent = TRUE;
-	description = "Uwarz mikstury many.";
+	description = "Brew mana potions.";
 };
 
 
@@ -263,7 +263,7 @@ instance PC_MANA1(C_Info)
 	condition = pc_mana1_condition;
 	information = pc_mana1_info;
 	permanent = 1;
-	description = "Esencja magicznej energii";
+	description = "Essence of Magic Energy";
 };
 
 
@@ -282,11 +282,11 @@ func void pc_mana1_info()
 		Npc_RemoveInvItems(hero,ItMi_Alchemy_Alcohol_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_01,1);
 		CreateInvItems(hero,ItFo_Potion_Mana_01,1);
-		PrintScreen("Przygotowano esencjê magicznej energii!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -300,7 +300,7 @@ instance PC_MANA2(C_Info)
 	condition = pc_mana2_condition;
 	information = pc_mana2_info;
 	permanent = 1;
-	description = "Wyci¹g magicznej energii";
+	description = "Extract of Magic Energy";
 };
 
 
@@ -320,11 +320,11 @@ func void pc_mana2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_02,1);
 		CreateInvItems(hero,ItFo_Potion_Mana_02,1);
-		PrintScreen("Przygotowano wyci¹g magicznej energii!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -338,7 +338,7 @@ instance PC_MANA3(C_Info)
 	condition = pc_mana3_condition;
 	information = pc_mana3_info;
 	permanent = 1;
-	description = "Eliksir magicznej energii";
+	description = "Elixir of Magic Energy";
 };
 
 
@@ -356,12 +356,12 @@ func void pc_mana3_info()
 	{
 		Npc_RemoveInvItems(hero,ItMi_Alchemy_Alcohol_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_02,2);
-		CreateInvItems(hero,ItFo_Potion_Mana_02,1);
-		PrintScreen("Przygotowano eliksir magicznej energii!",-1,-1,"font_old_20_white.tga",1);
+		CreateInvItems(hero,ItFo_Potion_Mana_03,1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -376,7 +376,7 @@ instance PC_SPECIAL_START(C_Info)
 	condition = pc_special_start_condition;
 	information = pc_special_start_info;
 	permanent = TRUE;
-	description = "Uwarz mikstury specjalne.";
+	description = "Brew special potions.";
 };
 
 
@@ -425,7 +425,7 @@ instance PC_CRAWLER(C_Info)
 	condition = pc_crawler_condition;
 	information = pc_crawler_info;
 	permanent = 1;
-	description = "Napój z pe³zaczy";
+	description = "Crawler Potion";
 };
 
 
@@ -445,11 +445,11 @@ func void pc_crawler_info()
 		Npc_RemoveInvItems(hero,ItAt_Crawler_01,4);
 		Npc_RemoveInvItems(hero,ItMi_Plants_Swampherb_01,4);
 		CreateInvItems(hero,ItFo_Potion_Elixier_Egg,1);
-		PrintScreen("Przygotowano napój z pe³zaczy!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -463,7 +463,7 @@ instance PC_ELIXIER(C_Info)
 	condition = pc_elixier_condition;
 	information = pc_elixier_info;
 	permanent = 1;
-	description = "Eliksir";
+	description = "Elixir";
 };
 
 
@@ -483,11 +483,11 @@ func void pc_elixier_info()
 		Npc_RemoveInvItems(hero,ItAt_Bloodfly_02,1);
 		Npc_RemoveInvItems(hero,ItMi_Plants_Swampherb_01,2);
 		CreateInvItems(hero,ItFo_Potion_Elixier,1);
-		PrintScreen("Przygotowano eliksir!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -501,7 +501,7 @@ instance PC_HASTE1(C_Info)
 	condition = pc_haste1_condition;
 	information = pc_haste1_info;
 	permanent = 1;
-	description = "Napój lekkoœci";
+	description = "Potion of Swiftness";
 };
 
 
@@ -520,11 +520,11 @@ func void pc_haste1_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Seraphis_01,1);
 		CreateInvItems(hero,ItFo_Potion_Haste_01,1);
-		PrintScreen("Przygotowano napój lekkoœci!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -538,7 +538,7 @@ instance PC_HASTE2(C_Info)
 	condition = pc_haste2_condition;
 	information = pc_haste2_info;
 	permanent = 1;
-	description = "Napój szybkoœci";
+	description = "Potion of Velocity";
 };
 
 
@@ -558,11 +558,11 @@ func void pc_haste2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Seraphis_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Velayis_01,1);
 		CreateInvItems(hero,ItFo_Potion_Haste_02,1);
-		PrintScreen("Przygotowano napój szybkoœci!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -576,7 +576,7 @@ instance PC_HASTE3(C_Info)
 	condition = pc_haste3_condition;
 	information = pc_haste3_info;
 	permanent = 1;
-	description = "Napój przyspieszenia";
+	description = "Potion of Haste";
 };
 
 
@@ -595,11 +595,11 @@ func void pc_haste3_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Velayis_01,2);
 		CreateInvItems(hero,ItFo_Potion_Haste_03,1);
-		PrintScreen("Przygotowano napój przyspieszenia!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -613,7 +613,7 @@ instance PC_STR1(C_Info)
 	condition = pc_str1_condition;
 	information = pc_str1_info;
 	permanent = 1;
-	description = "Esencja si³y";
+	description = "Essence of Strength";
 };
 
 
@@ -633,11 +633,11 @@ func void pc_str1_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Trollberrys_01,1);
 		CreateInvItems(hero,ItFo_Potion_Strength_01,1);
-		PrintScreen("Przygotowano esencjê si³y!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -651,7 +651,7 @@ instance PC_STR2(C_Info)
 	condition = pc_str2_condition;
 	information = pc_str2_info;
 	permanent = 1;
-	description = "Wyci¹g si³y";
+	description = "Extract of Strength";
 };
 
 
@@ -671,11 +671,11 @@ func void pc_str2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,3);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Trollberrys_01,1);
 		CreateInvItems(hero,ItFo_Potion_Strength_02,1);
-		PrintScreen("Przygotowano wyci¹g si³y!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -689,7 +689,7 @@ instance PC_STR3(C_Info)
 	condition = pc_str3_condition;
 	information = pc_str3_info;
 	permanent = 1;
-	description = "Eliksir si³y";
+	description = "Elixir of Strength";
 };
 
 
@@ -710,11 +710,11 @@ func void pc_str3_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Trollberrys_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Stoneroot_02,1);
 		CreateInvItems(hero,ItFo_Potion_Strength_03,1);
-		PrintScreen("Przygotowano eliksir si³y!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -728,7 +728,7 @@ instance PC_HEALPERMA1(C_Info)
 	condition = pc_healperma1_condition;
 	information = pc_healperma1_info;
 	permanent = 1;
-	description = "Esencja ¿ycia";
+	description = "Essence of Life";
 };
 
 
@@ -747,11 +747,11 @@ func void pc_healperma1_info()
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_03,2);
 		CreateInvItems(hero,ItFo_Potion_Health_Perma_01,1);
-		PrintScreen("Przygotowano esencjê ¿ycia!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -765,7 +765,7 @@ instance PC_HEALPERMA2(C_Info)
 	condition = pc_healperma2_condition;
 	information = pc_healperma2_info;
 	permanent = 1;
-	description = "Wyci¹g ¿ycia";
+	description = "Extract of Life";
 };
 
 
@@ -785,11 +785,11 @@ func void pc_healperma2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_03,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,1);
 		CreateInvItems(hero,ItFo_Potion_Health_Perma_02,1);
-		PrintScreen("Przygotowano wyci¹g ¿ycia!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -803,7 +803,7 @@ instance PC_HEALPERMA3(C_Info)
 	condition = pc_healperma3_condition;
 	information = pc_healperma3_info;
 	permanent = 1;
-	description = "Eliksir ¿ycia";
+	description = "Elixir of Life";
 };
 
 
@@ -823,11 +823,11 @@ func void pc_healperma3_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Herb_03,3);
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_02,1);
 		CreateInvItems(hero,ItFo_Potion_Health_Perma_03,1);
-		PrintScreen("Przygotowano eliksir ¿ycia!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -841,7 +841,7 @@ instance PC_MANAPERMA1(C_Info)
 	condition = pc_manaperma1_condition;
 	information = pc_manaperma1_info;
 	permanent = 1;
-	description = "Esencja ducha";
+	description = "Essence of the Spirit";
 };
 
 
@@ -861,11 +861,11 @@ func void pc_manaperma1_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Nightshadow_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_02,2);
 		CreateInvItems(hero,ItFo_Potion_Mana_Perma_01,1);
-		PrintScreen("Przygotowano esencjê ducha!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -879,7 +879,7 @@ instance PC_MANAPERMA2(C_Info)
 	condition = pc_manaperma2_condition;
 	information = pc_manaperma2_info;
 	permanent = 1;
-	description = "Wyci¹g ducha";
+	description = "Extract of the Spirit";
 };
 
 
@@ -899,11 +899,11 @@ func void pc_manaperma2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Nightshadow_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_02,2);
 		CreateInvItems(hero,ItFo_Potion_Mana_Perma_02,1);
-		PrintScreen("Przygotowano wyci¹g ducha!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -917,7 +917,7 @@ instance PC_MANAPERMA3(C_Info)
 	condition = pc_manaperma3_condition;
 	information = pc_manaperma3_info;
 	permanent = 1;
-	description = "Eliksir ducha";
+	description = "Elixir of the Spirit";
 };
 
 
@@ -937,11 +937,11 @@ func void pc_manaperma3_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Nightshadow_02,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_RavenHerb_02,3);
 		CreateInvItems(hero,ItFo_Potion_Mana_Perma_03,1);
-		PrintScreen("Przygotowano eliksir ducha!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -955,7 +955,7 @@ instance PC_DEX1(C_Info)
 	condition = pc_dex1_condition;
 	information = pc_dex1_info;
 	permanent = 1;
-	description = "Esencja zwinnoœci";
+	description = "Essence of Dexterity";
 };
 
 
@@ -975,11 +975,11 @@ func void pc_dex1_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Seraphis_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Flameberry_01,1);
 		CreateInvItems(hero,ItFo_Potion_Dex_01,1);
-		PrintScreen("Przygotowano esencjê zwinnoœci!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -993,7 +993,7 @@ instance PC_DEX2(C_Info)
 	condition = pc_dex2_condition;
 	information = pc_dex2_info;
 	permanent = 1;
-	description = "Wyci¹g zwinnoœci";
+	description = "Extract of Dexterity";
 };
 
 
@@ -1013,11 +1013,11 @@ func void pc_dex2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Seraphis_01,3);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Flameberry_01,1);
 		CreateInvItems(hero,ItFo_Potion_Dex_02,1);
-		PrintScreen("Przygotowano wyci¹g zwinnoœci!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -1031,7 +1031,7 @@ instance PC_DEX3(C_Info)
 	condition = pc_dex3_condition;
 	information = pc_dex3_info;
 	permanent = 1;
-	description = "Eliksir zwinnoœci";
+	description = "Elixir of Dexterity";
 };
 
 
@@ -1052,11 +1052,11 @@ func void pc_dex3_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_Flameberry_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Velayis_01,1);
 		CreateInvItems(hero,ItFo_Potion_Dex_03,1);
-		PrintScreen("Przygotowano eliksir zwinnoœci!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -1070,7 +1070,7 @@ instance PC_FORCE1(C_Info)
 	condition = pc_force1_condition;
 	information = pc_force1_info;
 	permanent = 1;
-	description = "Napój potêgi";
+	description = "Potion of Power";
 };
 
 
@@ -1092,11 +1092,11 @@ func void pc_force1_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_01,2);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Trollberrys_01,1);
 		CreateInvItems(hero,ItFo_Potion_Master_01,1);
-		PrintScreen("Przygotowano napój potêgi!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -1110,7 +1110,7 @@ instance PC_FORCE2(C_Info)
 	condition = pc_force2_condition;
 	information = pc_force2_info;
 	permanent = 1;
-	description = "Napój w³adzy";
+	description = "Potion of Supremacy";
 };
 
 
@@ -1132,11 +1132,11 @@ func void pc_force2_info()
 		Npc_RemoveInvItems(hero,ItFo_Plants_OrcHerb_02,3);
 		Npc_RemoveInvItems(hero,ItFo_Plants_Trollberrys_01,1);
 		CreateInvItems(hero,ItFo_Potion_Master_02,1);
-		PrintScreen("Przygotowano napój w³adzy!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Potion brewed!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;
@@ -1151,7 +1151,7 @@ instance PC_BOOZE_START(C_Info)
 	condition = pc_booze_start_condition;
 	information = pc_booze_start_info;
 	permanent = TRUE;
-	description = "Uwarz gorza³kê.";
+	description = "Distill booze.";
 };
 
 
@@ -1200,7 +1200,7 @@ instance PC_BOOZE(C_Info)
 	condition = pc_booze_condition;
 	information = pc_booze_info;
 	permanent = 1;
-	description = "Ry¿ówka";
+	description = "Rice Schnapps";
 };
 
 
@@ -1220,11 +1220,11 @@ func void pc_booze_info()
 		Npc_RemoveInvItems(hero,itmi_plants_rice_01,1);
 		Npc_RemoveInvItems(hero,ItFo_Potion_Water_01,1);
 		CreateInvItems(hero,ItFoBooze,1);
-		PrintScreen("Przygotowano ry¿ówkê!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Booze distilled!",-1,-1,"font_old_20_white.tga",1);
 	}
 	else
 	{
-		PrintScreen("Niewystarczaj¹ca iloœæ sk³adników!",-1,-1,"font_old_20_white.tga",1);
+		PrintScreen("Not enough resources!",-1,-1,"font_old_20_white.tga",1);
 		AI_StopProcessInfos(self);
 		player_mobsi_production = MOBSI_NONE;
 		self.aivar[AIV_INVINCIBLE] = FALSE;

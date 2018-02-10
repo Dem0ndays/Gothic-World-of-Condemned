@@ -74,7 +74,7 @@ func void init6()
 		messagekdf = LOG_RUNNING;
 		Log_CreateTopic(CH1_MESSAGEKDF,LOG_MISSION);
 		Log_SetTopicStatus(CH1_MESSAGEKDF,LOG_RUNNING);
-		B_LogEntry(CH1_MESSAGEKDF,"Dosta³em list do Magów Ognia tu¿ przed wrzuceniem mnie do tej kolonii. Mam go zanieœæ do Arcymistrza, przebywaj¹cego gdzieœ wewn¹trz bariery.");
+		B_LogEntry(CH1_MESSAGEKDF,"Just before I was thrown into the colony, I received a message from magician of fire. I have to deliver the message to the High Magician of the Circle of Fire, who is somewhere under the barrier..");
 		message_get = TRUE;
 	};
 };
@@ -106,7 +106,7 @@ func void init9()
 		thirtydays_colony = LOG_SUCCESS;
 		Log_CreateTopic(CH1_THIRTYDAYS,LOG_MISSION);
 		Log_SetTopicStatus(CH1_THIRTYDAYS,LOG_SUCCESS);
-		B_LogEntry(CH1_THIRTYDAYS,"To ju¿ mój 30 dzieñ w tej kolonii, a ja ci¹gle tu tkwiê. Przeszed³em ju¿ wiele, ale dalej nie znalaz³em jeszcze sposobu na odzyskanie wolnoœci. Jak dot¹d te¿ zbyt wiele tutaj nie osi¹gn¹³em. Mo¿e powinienem siê ju¿ powoli pogodziæ z faktem, ¿e spêdzê w tej kolonii resztê swojego ¿ycia.");
+		B_LogEntry(CH1_THIRTYDAYS,"This is my 30th day in this colony, and I'm still stuck here. I have gone through a lot, but I still have not found a way to regain freedom. In fact, I have not achieved too much here. Maybe I should accept the fact that I am going to spend rest of my life in this damned place...");
 		B_GiveXP(XP_THIRTYDAYS);
 	};
 };
