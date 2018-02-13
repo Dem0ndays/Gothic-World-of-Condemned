@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Skeleton(C_Npc)
 {
-	name[0] = "Szkielet";
+	name[0] = "Skeleton";
 	guild = GIL_SKELETON;
 	level = 12;
 	attribute[ATR_STRENGTH] = 70;
@@ -87,7 +87,7 @@ instance SkeletonSH(Mst_Default_Skeleton)
 
 instance SkeletonScout(Mst_Default_Skeleton)
 {
-	name[0] = "Szkielet zwiadowca";
+	name[0] = "Skeleton Scout";
 	aivar[AIV_IMPORTANT] = id_skeletonscout;
 	Set_SkeletonScout_Visuals();
 	Npc_SetToFightMode(self,ItMw_1H_Scythe_01);
@@ -96,7 +96,7 @@ instance SkeletonScout(Mst_Default_Skeleton)
 
 instance SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Szkielet wojownik";
+	name[0] = "Skeleton Warrior";
 	Set_SkeletonWarrior_Visuals();
 	level = 22;
 	attribute[ATR_STRENGTH] = 120;
@@ -109,7 +109,7 @@ instance SkeletonMage(Mst_Default_Skeleton)
 {
 	aivar[AIV_IMPORTANT] = id_skeletonmage;
 	Set_SkeletonMage_Visuals();
-	name[0] = "Szkielet mag";
+	name[0] = "Skeleton Mage";
 	guild = GIL_DEMON;
 	level = 24;
 	protection[PROT_BLUNT] = 50;
@@ -127,7 +127,7 @@ instance SkeletonMage_fogtower(Mst_Default_Skeleton)
 {
 	aivar[AIV_IMPORTANT] = id_skeletonmage;
 	Set_SkeletonMage_Visuals();
-	name[0] = "Szkielet maga z Wie¿y Mgie³";
+	name[0] = "Skeleton Mage of the Fog Tower";
 	guild = GIL_DEMON;
 	level = 30;
 	protection[PROT_BLUNT] = 70;
@@ -146,7 +146,7 @@ instance skeletonmage_demontower(Mst_Default_Skeleton)
 {
 	aivar[AIV_IMPORTANT] = id_skeletonmage;
 	Set_SkeletonMage_Visuals();
-	name[0] = "Szkielet maga z Wie¿y Demonów";
+	name[0] = "Skeleton Mage of the Demon Tower";
 	guild = GIL_DEMON;
 	level = 35;
 	protection[PROT_BLUNT] = 80;
@@ -186,7 +186,7 @@ instance SummonedByNPC_Skeleton(Mst_Default_Skeleton)
 
 instance SummonedByPC_SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Szkielet wojownik";
+	name[0] = "Skeleton Warrior";
 	level = 0;
 	attribute[ATR_STRENGTH] = 120;
 	senses = SENSE_HEAR | SENSE_SEE;
@@ -202,7 +202,7 @@ instance SummonedByPC_SkeletonWarrior(Mst_Default_Skeleton)
 
 instance SummonedByNPC_SkeletonWarrior(Mst_Default_Skeleton)
 {
-	name[0] = "Szkielet wojownik";
+	name[0] = "Skeleton Warrior";
 	level = 0;
 	attribute[ATR_STRENGTH] = 120;
 	aivar[AIV_IMPORTANT] = id_skeletonwarrior;

@@ -47,7 +47,7 @@ instance Troll(Mst_Default_Troll)
 
 instance YoungTroll(Mst_Default_Troll)
 {
-	name[0] = "M³ody troll";
+	name[0] = "Juvenile Troll";
 	guild = GIL_TROLL;
 	aivar[AIV_IMPORTANT] = ID_TROLL;
 	level = 50;

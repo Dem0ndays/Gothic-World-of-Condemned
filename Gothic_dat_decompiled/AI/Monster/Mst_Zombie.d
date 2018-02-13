@@ -83,7 +83,7 @@ instance Zombie4(Mst_Default_Zombie)
 
 instance ZombieTheKeeper(Mst_Default_Zombie)
 {
-	name[0] = "Nadzorca";
+	name[0] = "The Guardian";
 	level = 100;
 	id = MID_THEKEEPER;
 	Set_Zombie4_Visuals();

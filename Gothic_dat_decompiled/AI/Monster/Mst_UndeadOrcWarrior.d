@@ -1,7 +1,7 @@
 
 prototype Mst_Default_UndeadOrcWarrior(C_Npc)
 {
-	name[0] = "Opiekun œwi¹tyni";
+	name[0] = "Temple Guard";
 	guild = GIL_UNDEADORC;
 	aivar[AIV_IMPORTANT] = ID_UNDEADORCWARRIOR;
 	level = 30;
@@ -46,7 +46,7 @@ instance UndeadOrcWarrior(Mst_Default_UndeadOrcWarrior)
 
 instance UndeadOWH(Mst_Default_UndeadOrcWarrior)
 {
-	name[0] = "Starzy opiekun œwi¹tyni";
+	name[0] = "High Temple Guard";
 	level = 40;
 	attribute[ATR_STRENGTH] = 170;
 	protection[PROT_BLUNT] = 80;

@@ -1,7 +1,7 @@
 
 prototype Mst_Default_MinecrawlerQueen(C_Npc)
 {
-	name[0] = "Królowa Pe³zaczy";
+	name[0] = "Minecrawler Queen";
 	guild = GIL_MINECRAWLER;
 	aivar[AIV_IMPORTANT] = ID_MINECRAWLERQUEEN;
 	level = 75;

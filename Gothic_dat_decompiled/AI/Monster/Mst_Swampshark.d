@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Swampshark(C_Npc)
 {
-	name[0] = "W¹¿ b³otny";
+	name[0] = "Swampshark";
 	guild = GIL_SWAMPSHARK;
 	aivar[AIV_IMPORTANT] = ID_SWAMPSHARK;
 	level = 24;
@@ -47,7 +47,7 @@ instance Swampshark(Mst_Default_Swampshark)
 
 instance HurtSwampshark(Mst_Default_Swampshark)
 {
-	name[0] = "Verletzter Sumpfhai";
+	name[0] = "Injured Swampshark";
 	attribute[ATR_HITPOINTS_MAX] = 2200;
 	attribute[ATR_HITPOINTS] = 500;
 	Set_Swampshark_Visuals();

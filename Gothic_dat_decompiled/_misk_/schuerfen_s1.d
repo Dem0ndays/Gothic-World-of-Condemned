@@ -46,7 +46,7 @@ instance PC_SCHUERFEN_N(C_Info)
 	information = pc_schuerfen_n_info;
 	important = 0;
 	permanent = 1;
-	description = "Od³up trochê.";
+	description = "Just chop a little.";
 };
 
 
@@ -90,19 +90,19 @@ func void pc_schuerfen_n_info()
 		CreateInvItems(self,ItMiNugget,anzahl);
 		if(anzahl == 0)
 		{
-			PrintScreen("Kawa³ki rudy zasypuj¹ okolicê...",-1,10,"font_old_20_white.tga",1);
+			PrintScreen("Ore splinters fly everywhere...",-1,10,"font_old_20_white.tga",1);
 		};
 		if(anzahl == 1)
 		{
-			PrintScreen("Odpad³a 1 bry³ka rudy!",-1,30,"font_old_20_white.tga",1);
+			PrintScreen("1 ore nugget mined!",-1,30,"font_old_20_white.tga",1);
 		};
 		if(anzahl == 2)
 		{
-			PrintScreen("Odpad³y 2 bry³ki rudy!",-1,30,"font_old_20_white.tga",1);
+			PrintScreen("2 ore nuggets mined!",-1,30,"font_old_20_white.tga",1);
 		};
 		if(anzahl == 3)
 		{
-			PrintScreen("Odpad³y 3 bry³ki rudy!",-1,30,"font_old_20_white.tga",1);
+			PrintScreen("3 ore nuggets mined!",-1,30,"font_old_20_white.tga",1);
 		};
 	};
 };

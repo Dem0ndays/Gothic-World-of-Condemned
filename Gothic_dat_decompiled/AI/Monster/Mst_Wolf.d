@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Wolf(C_Npc)
 {
-	name[0] = "Wilk";
+	name[0] = "Wolf";
 	guild = GIL_WOLF;
 	aivar[AIV_IMPORTANT] = ID_WOLF;
 	level = 6;
@@ -53,7 +53,7 @@ instance Wolf(Mst_Default_Wolf)
 
 instance blackwolf(Mst_Default_Wolf)
 {
-	name[0] = "Czarny wilk";
+	name[0] = "Black Wolf";
 	level = 8;
 	attribute[ATR_STRENGTH] = 35;
 	attribute[ATR_DEXTERITY] = 35;

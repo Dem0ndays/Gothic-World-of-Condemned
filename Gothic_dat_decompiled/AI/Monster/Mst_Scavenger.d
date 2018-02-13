@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Scavenger(C_Npc)
 {
-	name[0] = "Œcierwojad";
+	name[0] = "Scavenger";
 	guild = GIL_SCAVENGER;
 	aivar[AIV_IMPORTANT] = ID_SCAVENGER;
 	level = 6;
@@ -51,7 +51,7 @@ instance Scavenger(Mst_Default_Scavenger)
 
 instance YScavenger(Mst_Default_Scavenger)
 {
-	name[0] = "M³ody œcierwojad";
+	name[0] = "Juvenile Scavenger";
 	level = 3;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;
@@ -68,7 +68,7 @@ instance YScavenger(Mst_Default_Scavenger)
 
 instance mscavenger(Mst_Default_Scavenger)
 {
-	name[0] = "Górski œcierwojad";
+	name[0] = "Mountain Scavenger";
 	level = 8;
 	attribute[ATR_STRENGTH] = 40;
 	attribute[ATR_DEXTERITY] = 40;

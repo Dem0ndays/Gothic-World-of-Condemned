@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Lurker(C_Npc)
 {
-	name[0] = "Topielec";
+	name[0] = "Lurker";
 	guild = GIL_LURKER;
 	aivar[AIV_IMPORTANT] = ID_LURKER;
 	level = 10;
@@ -47,7 +47,7 @@ instance Lurker(Mst_Default_Lurker)
 
 instance DamLurker(Mst_Default_Lurker)
 {
-	name[0] = "Topielec spod tamy";
+	name[0] = "Dam Lurker";
 	id = mid_damlurker;
 	level = 20;
 	Set_Lurker_Visuals();

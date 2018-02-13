@@ -2,7 +2,7 @@ var int orcshaman.inventar_8;
 
 prototype Mst_Default_OrcShaman(C_Npc)
 {
-	name[0] = "Ork-szaman";
+	name[0] = "Orc Shaman";
 	guild = GIL_ORCSHAMAN;
 	npcType = npctype_guard;
 	level = 30;

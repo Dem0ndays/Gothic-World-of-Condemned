@@ -1,7 +1,7 @@
 
 prototype Mst_Default_OrcSlave(C_Npc)
 {
-	name[0] = "Ork-niewolnik";
+	name[0] = "Orc Slave";
 	guild = gil_orcslave;
 	level = 15;
 	attribute[ATR_STRENGTH] = 50;
@@ -40,7 +40,7 @@ instance OrcSlave(Mst_Default_OrcSlave)
 instance OrcPeasantDance(Mst_Default_OrcSlave)
 {
 	guild = GIL_ORCWARRIOR;
-	name[0] = "Ork";
+	name[0] = "Orc";
 	Set_OrcSlave_Visuals();
 	CreateInvItem(self,ItMw2hOrcSword01);
 	start_aistate = ZS_Orc_Dance;
@@ -49,7 +49,7 @@ instance OrcPeasantDance(Mst_Default_OrcSlave)
 instance OrcPeasantDrum(Mst_Default_OrcSlave)
 {
 	guild = GIL_ORCWARRIOR;
-	name[0] = "Ork";
+	name[0] = "Orc";
 	Set_OrcSlave_Visuals();
 	CreateInvItem(self,ItMw2hOrcSword01);
 	start_aistate = ZS_Orc_Drum;

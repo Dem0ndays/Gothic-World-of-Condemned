@@ -5,7 +5,7 @@ var int orcwarrior4.inventar_12;
 
 prototype Mst_Default_OrcWarrior(C_Npc)
 {
-	name[0] = "Ork-¿o³nierz";
+	name[0] = "Orc Warrior";
 	guild = GIL_ORCWARRIOR;
 	npcType = npctype_guard;
 	voice = 17;
@@ -45,7 +45,7 @@ func void Set_OrcWarrior_Visuals()
 
 instance OrcWarrior1(Mst_Default_OrcWarrior)
 {
-	name[0] = "Ork-wojownik";
+	name[0] = "Orc Fighter";
 	level = 25;
 	Set_OrcWarrior_Visuals();
 	EquipItem(self,ItMw2hOrcAxe01);
@@ -114,7 +114,7 @@ instance OrcWarrior1(Mst_Default_OrcWarrior)
 
 instance OrcWarrior2(Mst_Default_OrcWarrior)
 {
-	name[0] = "Ork-¯o³nierz";
+	name[0] = "Orc Warrior";
 	level = 25;
 	Set_OrcWarrior_Visuals();
 	EquipItem(self,ItMw2hOrcAxe02);
@@ -183,7 +183,7 @@ instance OrcWarrior2(Mst_Default_OrcWarrior)
 
 instance OrcWarrior3(Mst_Default_OrcWarrior)
 {
-	name[0] = "Wojownik Klanu";
+	name[0] = "Orc Clan Warrior";
 	level = 35;
 	Set_OrcWarrior_Visuals();
 	attribute[ATR_STRENGTH] = 110;
@@ -264,7 +264,7 @@ instance OrcWarrior3(Mst_Default_OrcWarrior)
 
 instance OrcWarrior4(Mst_Default_OrcWarrior)
 {
-	name[0] = "Ork-Œwi¹tynny";
+	name[0] = "Orc Temple Warrior";
 	level = 35;
 	Set_OrcWarrior_Visuals();
 	attribute[ATR_STRENGTH] = 110;

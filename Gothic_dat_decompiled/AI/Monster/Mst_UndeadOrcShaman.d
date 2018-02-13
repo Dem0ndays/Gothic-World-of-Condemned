@@ -1,7 +1,7 @@
 
 prototype Mst_Default_UndeadOrcShaman(C_Npc)
 {
-	name[0] = "Arcykap³an";
+	name[0] = "High Priest";
 	guild = GIL_UNDEADORC;
 	aivar[AIV_IMPORTANT] = ID_UNDEADORCSHAMAN;
 	level = 30;

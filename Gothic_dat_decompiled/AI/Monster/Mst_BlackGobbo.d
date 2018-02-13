@@ -3,7 +3,7 @@ var int blackgobbowarrior.inventar_4;
 
 prototype Mst_Default_BlackGobbo(C_Npc)
 {
-	name[0] = "Czarny Goblin";
+	name[0] = "Black Goblin";
 	guild = GIL_GOBBO;
 	aivar[AIV_IMPORTANT] = ID_BLACKGOBBO;
 	level = 10;
@@ -112,7 +112,7 @@ instance BlackGobboMace(Mst_Default_BlackGobbo)
 
 instance BlackGobboWarrior(Mst_Default_BlackGobbo)
 {
-	name[0] = "Goblin wojownik";
+	name[0] = "Goblin - warrior";
 	level = 12;
 	Set_BlackGobbo_Visuals();
 	Npc_SetToFightMode(self,ItMw_1H_Mace_01);

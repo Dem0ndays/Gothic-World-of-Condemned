@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Snapper(C_Npc)
 {
-	name[0] = "Zêbacz";
+	name[0] = "Snapper";
 	guild = GIL_SNAPPER;
 	aivar[AIV_IMPORTANT] = ID_SNAPPER;
 	level = 18;
@@ -49,7 +49,7 @@ instance badsnapper(Mst_Default_Snapper)
 {
 	Set_Snapper_Visuals();
 	Npc_SetToFistMode(self);
-	name[0] = "Paskudny zêbacz";
+	name[0] = "Pack Leader";
 	attribute[ATR_STRENGTH] = 75;
 	attribute[ATR_DEXTERITY] = 75;
 	attribute[ATR_HITPOINTS_MAX] = 160;

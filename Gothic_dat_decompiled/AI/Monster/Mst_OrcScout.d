@@ -4,7 +4,7 @@ var int orcscoutgyd.inventar_7;
 
 prototype Mst_Default_OrcScout(C_Npc)
 {
-	name[0] = "Ork-Zwiadowca";
+	name[0] = "Orc Hunter";
 	guild = GIL_ORCSCOUT;
 	npcType = npctype_guard;
 	voice = 17;
@@ -180,7 +180,7 @@ instance OrcPeasantEatAndDrink(Mst_Default_OrcScout)
 
 instance OrcScoutGYD(Mst_Default_OrcScout)
 {
-	name[0] = "Ork-Zwiadowca";
+	name[0] = "Orc Scout";
 	level = 20;
 	aivar[AIV_PCISSTRONGER] = 1500;
 	aivar[AIV_BEENATTACKED] = 1200;

@@ -54,7 +54,7 @@ func void Set_IceGolem_Visuals()
 
 instance StoneGolem(Mst_Default_Golem)
 {
-	name[0] = "Kamienny Golem";
+	name[0] = "Stone Golem";
 	aivar[AIV_IMPORTANT] = id_stonegolem;
 	protection[PROT_BLUNT] = 75;
 	Set_StoneGolem_Visuals();
@@ -80,7 +80,7 @@ instance SummonedByPC_StoneGolem(Mst_Default_Golem)
 
 instance SummonedByNPC_StoneGolem(Mst_Default_Golem)
 {
-	name[0] = "Kamienny Golem";
+	name[0] = "Stone Golem";
 	aivar[AIV_IMPORTANT] = id_stonegolem;
 	Set_StoneGolem_Visuals();
 	Npc_SetToFistMode(self);
@@ -90,7 +90,7 @@ instance SummonedByNPC_StoneGolem(Mst_Default_Golem)
 
 instance FireGolem(Mst_Default_Golem)
 {
-	name[0] = "Ognisty Golem";
+	name[0] = "Fire Golem";
 	aivar[AIV_IMPORTANT] = id_firegolem;
 	Set_FireGolem_Visuals();
 	Npc_SetToFistMode(self);
@@ -105,7 +105,7 @@ instance FireGolem(Mst_Default_Golem)
 
 instance IceGolem(Mst_Default_Golem)
 {
-	name[0] = "Lodowy Golem";
+	name[0] = "Ice Golem";
 	aivar[AIV_IMPORTANT] = id_icegolem;
 	Set_IceGolem_Visuals();
 	attribute[ATR_MANA_MAX] = 500;
@@ -121,7 +121,7 @@ instance IceGolem(Mst_Default_Golem)
 
 instance Bridgegolem(Mst_Default_Golem)
 {
-	name[0] = "Golem mostowy";
+	name[0] = "Bridge Golem";
 	level = 50;
 	Set_StoneGolem_Visuals();
 	Npc_SetToFistMode(self);

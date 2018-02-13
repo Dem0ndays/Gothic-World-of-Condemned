@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Minecrawler(C_Npc)
 {
-	name[0] = "Pe³zacz";
+	name[0] = "Minecrawler";
 	guild = GIL_MINECRAWLER;
 	aivar[AIV_IMPORTANT] = ID_MINECRAWLER;
 	level = 12;

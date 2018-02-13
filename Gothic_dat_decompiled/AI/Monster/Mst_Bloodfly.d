@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Bloodfly(C_Npc)
 {
-	name[0] = "Krwiopijca";
+	name[0] = "Bloodfly";
 	guild = GIL_BLOODFLY;
 	aivar[AIV_IMPORTANT] = ID_BLOODFLY;
 	level = 6;
@@ -50,6 +50,6 @@ instance HelpBrothers_Bloodfly(Mst_Default_Bloodfly)
 	Set_Bloodfly_Visuals();
 	Npc_SetToFistMode(self);
 	CreateInvItems(self,ItAt_Bloodfly_01,2);
-	name[0] = "Agresywna krwiopijca";
+	name[0] = "Aggressive Bloodfly";
 };
 

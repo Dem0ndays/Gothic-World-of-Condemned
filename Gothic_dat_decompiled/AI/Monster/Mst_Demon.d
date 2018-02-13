@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Demon(C_Npc)
 {
-	name[0] = "Demon ognia";
+	name[0] = "Fire Demon";
 	guild = GIL_DEMON;
 	aivar[AIV_IMPORTANT] = ID_DEMON;
 	level = 60;
@@ -75,7 +75,7 @@ instance XardasDemon(Mst_Default_Demon)
 
 instance OTDemon(Mst_Default_Demon)
 {
-	name[0] = "Pomniejszy Demon";
+	name[0] = "Lesser Demon";
 	guild = GIL_DEMON;
 	level = 60;
 	damagetype = DAM_EDGE;

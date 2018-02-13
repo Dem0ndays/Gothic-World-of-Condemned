@@ -47,7 +47,7 @@ instance GreenGobboClub(Mst_Default_GreenGobbo)
 	fight_tactic = FAI_MONSTER_COWARD;
 	Npc_SetToFightMode(self,ItMw_1H_Club_01);
 	attribute[ATR_STRENGTH] = attribute[ATR_STRENGTH] + 5;
-	name[0] = "M³ody goblin";
+	name[0] = "Juvenile Goblin";
 	level = 3;
 	attribute[ATR_STRENGTH] = 15;
 	attribute[ATR_DEXTERITY] = 15;

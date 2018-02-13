@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Shadowbeast(C_Npc)
 {
-	name[0] = "Cieniostwór";
+	name[0] = "Shadowbeast";
 	guild = GIL_SHADOWBEAST;
 	aivar[AIV_IMPORTANT] = ID_SHADOWBEAST;
 	level = 20;

@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Molerat(C_Npc)
 {
-	name[0] = "Kretoszczur";
+	name[0] = "Molerat";
 	guild = GIL_MOLERAT;
 	aivar[AIV_IMPORTANT] = ID_MOLERAT;
 	level = 5;
@@ -48,7 +48,7 @@ instance Molerat(Mst_Default_Molerat)
 
 instance YMolerat(Mst_Default_Molerat)
 {
-	name[0] = "M³ody kretoszczur";
+	name[0] = "Juvenile Molerat";
 	level = 3;
 	attribute[ATR_STRENGTH] = 10;
 	attribute[ATR_DEXTERITY] = 10;

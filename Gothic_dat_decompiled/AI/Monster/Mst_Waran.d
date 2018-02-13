@@ -1,7 +1,7 @@
 
 prototype Mst_Default_Waran(C_Npc)
 {
-	name[0] = "Jaszczur";
+	name[0] = "Lizard";
 	guild = GIL_WARAN;
 	aivar[AIV_IMPORTANT] = ID_WARAN;
 	level = 12;
