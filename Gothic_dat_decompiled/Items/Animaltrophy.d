@@ -23,7 +23,7 @@ const int Value_Eistueck = 100;
 
 instance ItAt_Teeth_01(C_Item)
 {
-	name = "K³y";
+	name = "Teeth";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Zähne;
@@ -36,7 +36,7 @@ instance ItAt_Teeth_01(C_Item)
 
 instance ItAt_Wolf_01(C_Item)
 {
-	name = "Skóra wilka";
+	name = "Wolfskin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Wolfsfell;
@@ -49,7 +49,7 @@ instance ItAt_Wolf_01(C_Item)
 
 instance itat_blackwolf_01(C_Item)
 {
-	name = "Skóra czarnego wilka";
+	name = "Skin of a Black Wolf";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Wolfsfell;
@@ -62,7 +62,7 @@ instance itat_blackwolf_01(C_Item)
 
 instance ItAt_Wolf_02(C_Item)
 {
-	name = "Skóra orkowego psa";
+	name = "Skin of an Orc Dog";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Orkhundfell;
@@ -75,7 +75,7 @@ instance ItAt_Wolf_02(C_Item)
 
 instance ItAt_Waran_01(C_Item)
 {
-	name = "Jêzyk Ognia";
+	name = "Tongue of Fire";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Feuerzunge;
@@ -88,7 +88,7 @@ instance ItAt_Waran_01(C_Item)
 
 instance ItAt_Claws_01(C_Item)
 {
-	name = "Pazury";
+	name = "Claws";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Krallen;
@@ -101,20 +101,20 @@ instance ItAt_Claws_01(C_Item)
 
 instance ItAt_Crawler_02(C_Item)
 {
-	name = "P³ytka z pancerza";
+	name = "Armor Plate";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_MISSION;
 	value = Value_Panzerplatte;
 	visual = "ItAt_Crawler_02.3DS";
 	material = MAT_WOOD;
-	description = "Fragment pancerza pe³zacza";
+	description = "The armor plate of a minecrawler";
 	text[4] = NAME_Value;
 	count[4] = Value_Panzerplatte;
 };
 
 instance ItAt_Crawler_01(C_Item)
 {
-	name = "Wnêtrznoœci pe³zacza";
+	name = "Mandibles of a Crawler";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Crawlerzangen;
@@ -127,33 +127,33 @@ instance ItAt_Crawler_01(C_Item)
 
 instance ItAt_Shadow_01(C_Item)
 {
-	name = "Skóra";
+	name = "Skin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Shadowbeastfell;
 	visual = "ItAt_Shadowbeast_01.3DS";
 	material = MAT_LEATHER;
-	description = "Skóra cieniostwora";
+	description = "Skin of a Shadowbeast";
 	text[4] = NAME_Value;
 	count[4] = Value_Shadowbeastfell;
 };
 
 instance ItAt_Shadow_02(C_Item)
 {
-	name = "Róg";
+	name = "Horn";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Shadowbeasthorn;
 	visual = "ItAt_Shadowbeast_02.3DS";
 	material = MAT_LEATHER;
-	description = "Róg cieniostwora";
+	description = "Horn of a Shadowbeast";
 	text[4] = NAME_Value;
 	count[4] = Value_Shadowbeasthorn;
 };
 
 instance ItAt_Lurker_01(C_Item)
 {
-	name = "Pazury topielca";
+	name = "Lurker's Claws";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Lurkerklaue;
@@ -166,7 +166,7 @@ instance ItAt_Lurker_01(C_Item)
 
 instance ItAt_Lurker_02(C_Item)
 {
-	name = "Skóra topielca";
+	name = "Lurker's Skin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Lurkerhaut;
@@ -179,7 +179,7 @@ instance ItAt_Lurker_02(C_Item)
 
 instance ItAt_Troll_02(C_Item)
 {
-	name = "Kie³ trolla";
+	name = "Troll Tusk";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Trollhauer;
@@ -192,7 +192,7 @@ instance ItAt_Troll_02(C_Item)
 
 instance ItAt_Troll_01(C_Item)
 {
-	name = "Skóra trolla";
+	name = "Troll Skin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Trollfell;
@@ -205,7 +205,7 @@ instance ItAt_Troll_01(C_Item)
 
 instance ItAt_Swampshark_01(C_Item)
 {
-	name = "Skóra b³otnego wê¿a";
+	name = "Skin of a Swampshark";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfhaihaut;
@@ -218,7 +218,7 @@ instance ItAt_Swampshark_01(C_Item)
 
 instance ItAt_Swampshark_02(C_Item)
 {
-	name = "K³y b³otnego wê¿a";
+	name = "Teeth of a Swampshark";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfhaizähne;
@@ -231,7 +231,7 @@ instance ItAt_Swampshark_02(C_Item)
 
 instance ItAt_Bloodfly_01(C_Item)
 {
-	name = "Skrzyd³a";
+	name = "Wings";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Flügel;
@@ -244,7 +244,7 @@ instance ItAt_Bloodfly_01(C_Item)
 
 instance ItAt_Bloodfly_02(C_Item)
 {
-	name = "¯¹d³o krwiopijcy";
+	name = "Bloodfly Sting";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Stachel;
@@ -257,7 +257,7 @@ instance ItAt_Bloodfly_02(C_Item)
 
 instance ItAt_StoneGolem_01(C_Item)
 {
-	name = "Serce Kamiennego Golema";
+	name = "Heart of a Stone Golem";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_WINDFIST;
@@ -265,17 +265,17 @@ instance ItAt_StoneGolem_01(C_Item)
 	visual = "ItAt_StoneGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "To serce pochodzi ze szcz¹tków";
-	text[1] = "pokonanego kamiennego Golema.";
-	text[2] = "Jego magiczna moc pozwala";
-	text[3] = "wyrzuciæ przeciwnika w powietrze.";
+	text[0] = "This heart stems from the remains";
+	text[1] = "of a defeated stone golem.";
+	text[2] = "It has the power to hurl a foe";
+	text[3] = "through the air.";
 	text[5] = NAME_Value;
 	count[5] = Value_Steinherz;
 };
 
 instance ItAt_FireGolem_01(C_Item)
 {
-	name = "Serce Ognistego Golema";
+	name = "Heart of a Fire Golem";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_FIREBALL;
@@ -283,17 +283,17 @@ instance ItAt_FireGolem_01(C_Item)
 	visual = "ItAt_FireGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "To serce pochodzi ze szcz¹tków";
-	text[1] = "pokonanego ognistego Golema.";
-	text[2] = "Jego magiczna moc pozwala";
-	text[3] = "podpaliæ przeciwnika.";
+	text[0] = "This heart stems from the remains";
+	text[1] = "of a defeated fire golem.";
+	text[2] = "It has the power to set a foe";
+	text[3] = "on fire.";
 	text[5] = NAME_Value;
 	count[5] = Value_Feuerherz;
 };
 
 instance ItAt_IceGolem_01(C_Item)
 {
-	name = "Serce Lodowego Golema";
+	name = "Heart of an Ice Golem";
 	mainflag = ITEM_KAT_RUNE;
 	flags = ITEM_MISSION;
 	spell = SPL_ICECUBE;
@@ -301,17 +301,16 @@ instance ItAt_IceGolem_01(C_Item)
 	visual = "ItAt_IceGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "To serce pochodzi ze szcz¹tków";
-	text[1] = "pokonanego lodowego Golema.";
-	text[2] = "Jego magiczna moc pozwala";
-	text[3] = "zamroziæ przeciwnika.";
+	text[0] = "This heart stems from the remains";
+	text[1] = "of a defeated ice golem.";
+	text[2] = "It has the power to freeze a foe.";
 	text[5] = NAME_Value;
 	count[5] = Value_Eisherz;
 };
 
 instance ItAt_IceGolem_02(C_Item)
 {
-	name = "Fragment Lodowego Golema";
+	name = "Piece of an Ice Golem";
 	mainflag = ITEM_KAT_RUNE;
 	flags = 0;
 	spell = SPL_THUNDERBOLT;
@@ -321,8 +320,8 @@ instance ItAt_IceGolem_02(C_Item)
 	visual = "ItAt_IceGolem_01.3DS";
 	material = MAT_STONE;
 	description = name;
-	text[0] = "Ten fragment pochodzi ze szcz¹tków";
-	text[1] = "pokonanego lodowego Golema.";
+	text[0] = "This is a fragment of";
+	text[1] = "a defeated ice golem."
 	text[4] = NAME_Value;
 	count[4] = Value_Eistueck;
 };

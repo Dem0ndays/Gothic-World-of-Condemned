@@ -8,9 +8,9 @@ instance ItMi_Amulet_Psi_01(C_Item)
 	visual = "ItMi_Amulet_Psi_01.3ds";
 	visual_skin = 0;
 	material = MAT_METAL;
-	description = "Znak Bractwa";
-	text[2] = "Znak rozpoznawalny";
-	text[3] = "cz³onka Bractwa.";
+	description = "Sign of the Brotherhood";
+	text[2] = "The bearer is recognized as";
+	text[3] = "a member of the Brotherhood.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -26,7 +26,7 @@ instance Schutzamulett_Feuer(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Feuer;
 	on_unequip = UnEquip_Schutzamulett_Feuer;
-	description = "Amulet P³omieni";
+	description = "Amulet of Flames";
 	text[2] = NAME_Prot_Fire;
 	count[2] = 10;
 	text[5] = NAME_Value;
@@ -56,7 +56,7 @@ instance Schutzamulett_Waffen(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Waffen;
 	on_unequip = UnEquip_Schutzamulett_Waffen;
-	description = "Amulet Ochronny";
+	description = "Armor Amulet";
 	text[2] = NAME_Prot_Edge;
 	count[2] = 15;
 	text[5] = NAME_Value;
@@ -88,7 +88,7 @@ instance Schutzamulett_Geschosse(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Geschosse;
 	on_unequip = UnEquip_Schutzamulett_Geschosse;
-	description = "Amulet Dêbowej Skóry";
+	description = "Amulet of Oak Skin";
 	text[2] = NAME_Prot_Point;
 	count[2] = 15;
 	text[5] = NAME_Value;
@@ -118,7 +118,7 @@ instance Schutzamulett_Magie(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Magie;
 	on_unequip = UnEquip_Schutzamulett_Magie;
-	description = "Amulet Duchowej Si³y";
+	description = "Amulet of Spiritual Power";
 	text[2] = NAME_Prot_Magic;
 	count[2] = 8;
 	text[5] = NAME_Value;
@@ -148,7 +148,7 @@ instance Schutzamulett_Magie_Feuer(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Magie_Feuer;
 	on_unequip = UnEquip_Schutzamulett_Magie_Feuer;
-	description = "Amulet Oczyszczenia";
+	description = "Amulet of Purification";
 	text[2] = NAME_Prot_Fire;
 	count[2] = 10;
 	text[3] = NAME_Prot_Magic;
@@ -182,7 +182,7 @@ instance Schutzamulett_Waffen_Geschosse(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Waffen_Geschosse;
 	on_unequip = UnEquip_Schutzamulett_Waffen_Geschosse;
-	description = "Amulet Kamiennej Skóry";
+	description = "Amulet of Stone Skin";
 	text[2] = NAME_Prot_Edge;
 	count[2] = 15;
 	text[3] = NAME_Prot_Point;
@@ -218,7 +218,7 @@ instance Schutzamulett_Total(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Total;
 	on_unequip = UnEquip_Schutzamulett_Total;
-	description = "Amulet Magicznego Pancerza";
+	description = "Amulet of Ore Skin";
 	text[1] = NAME_Prot_Fire;
 	count[1] = 10;
 	text[2] = NAME_Prot_Magic;
@@ -262,7 +262,7 @@ instance Gewandtheitsamulett(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Gewandtheitsamulett;
 	on_unequip = UnEquip_Gewandtheitsamulett;
-	description = "Amulet Zwinnoœci";
+	description = "Amulet of Agility";
 	text[2] = NAME_Bonus_Dex;
 	count[2] = 10;
 	text[5] = NAME_Value;
@@ -292,7 +292,7 @@ instance Gewandtheitsamulett2(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Gewandtheitsamulett2;
 	on_unequip = UnEquip_Gewandtheitsamulett2;
-	description = "Amulet Zrêcznoœci";
+	description = "Amulet of Dexterity";
 	text[2] = NAME_Bonus_Dex;
 	count[2] = 20;
 	text[5] = NAME_Value;
@@ -322,7 +322,7 @@ instance Staerkeamulett(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Staerkeamulett;
 	on_unequip = UnEquip_Staerkeamulett;
-	description = "Amulet Mocy";
+	description = "Amulet of Power";
 	text[2] = NAME_Bonus_Str;
 	count[2] = 10;
 	text[5] = NAME_Value;
@@ -352,7 +352,7 @@ instance Staerkeamulett2(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Staerkeamulett2;
 	on_unequip = UnEquip_Staerkeamulett2;
-	description = "Amulet Si³y";
+	description = "Amulet of Strength";
 	text[2] = NAME_Bonus_Str;
 	count[2] = 20;
 	text[5] = NAME_Value;
@@ -382,7 +382,7 @@ instance Lebensamulett(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Lebensamulett;
 	on_unequip = UnEquip_Lebensamulett;
-	description = "Amulet Witalnoœci";
+	description = "Amulet of Life Force";
 	text[2] = NAME_Bonus_HP;
 	count[2] = 30;
 	text[5] = NAME_Value;
@@ -421,7 +421,7 @@ instance Amulett_der_Magie(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Amulett_der_Magie;
 	on_unequip = UnEquip_Amulett_der_Magie;
-	description = "Amulet Magii";
+	description = "Amulet of Magic";
 	text[2] = NAME_Bonus_Mana;
 	count[2] = 10;
 	text[5] = NAME_Value;
@@ -444,7 +444,7 @@ func void UnEquip_Amulett_der_Magie()
 
 instance Amulett_der_Macht(C_Item)
 {
-	name = "Amulet Potêgi";
+	name = "Amulet of Might";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_AMULET;
 	value = 600;
@@ -453,7 +453,7 @@ instance Amulett_der_Macht(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Amulett_der_Macht;
 	on_unequip = UnEquip_Amulett_der_Macht;
-	description = "Amulet Potêgi";
+	description = "Amulet of Might";
 	text[2] = NAME_Bonus_Dex;
 	count[2] = 7;
 	text[3] = NAME_Bonus_Str;
@@ -478,7 +478,7 @@ func void UnEquip_Amulett_der_Macht()
 
 instance Amulett_der_Erleuchtung(C_Item)
 {
-	name = "Amulet Oœwiecenia";
+	name = "Amulet of Enlightenment";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_AMULET;
 	value = 1000;
@@ -487,7 +487,7 @@ instance Amulett_der_Erleuchtung(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Amulett_der_Erleuchtung;
 	on_unequip = UnEquip_Amulett_der_Erleuchtung;
-	description = "Amulet Oœwiecenia";
+	description = "Amulet of Enlightenment";
 	text[2] = NAME_Bonus_HP;
 	count[2] = 25;
 	text[3] = NAME_Bonus_Mana;
@@ -523,7 +523,7 @@ func void UnEquip_Amulett_der_Erleuchtung()
 
 instance BESCHWöRUNGSAMULETT(C_Item)
 {
-	name = "Amulet Przywo³ania";
+	name = "Summoning Charm";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_AMULET;
 	value = 1500;
@@ -532,11 +532,11 @@ instance BESCHWöRUNGSAMULETT(C_Item)
 	material = MAT_METAL;
 	on_equip = equip_beschwörungsamulett;
 	on_unequip = unequip_beschwörungsamulett;
-	description = "Nekromancja";
-	text[0] = "Czarna jak dusza";
-	text[1] = "Czarna jak noc";
-	text[2] = "Czarna jak z³o";
-	text[3] = "Obiecuje ci moc.";
+	description = "Necromancy";
+	text[0] = "Dark as the soul";
+	text[1] = "Dark as the night";
+	text[2] = "Dark as evil";
+	text[3] = "Darkness promises power.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
