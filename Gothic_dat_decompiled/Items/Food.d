@@ -78,7 +78,7 @@ const int Mana_Drachenwurzel = 30;
 
 instance ItAt_Meatbug_01(C_Item)
 {
-	name = "Miêso chrz¹szcza";
+	name = "Bugmeat";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Bugmeat;
@@ -102,7 +102,7 @@ func void UseBugmeat()
 
 instance ItFoApple(C_Item)
 {
-	name = "Jab³ko";
+	name = "Apple";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Apfel;
@@ -136,7 +136,7 @@ func void UseApple()
 
 instance ItFo_wineberrys_01(C_Item)
 {
-	name = "Winogrona";
+	name = "Grapes";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Weintrauben;
@@ -159,7 +159,7 @@ func void Usewineberrys()
 
 instance ItFoLoaf(C_Item)
 {
-	name = "Chleb";
+	name = "Bread";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Brot;
@@ -182,7 +182,7 @@ func void UseLoaf()
 
 instance ItFoMutton(C_Item)
 {
-	name = "Sma¿one miêso";
+	name = "Grilled meat";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Fleisch;
@@ -205,7 +205,7 @@ func void UseMutton()
 
 instance ItFoMuttonRaw(C_Item)
 {
-	name = "Surowe miêso";
+	name = "Raw Meat";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_FleischRoh;
@@ -228,7 +228,7 @@ func void UseMuttonRaw()
 
 instance ItFo_mutton_01(C_Item)
 {
-	name = "Szynka";
+	name = "Ham";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Schinken;
@@ -251,7 +251,7 @@ func void UseMutton1()
 
 instance ItFoCheese(C_Item)
 {
-	name = "Ser";
+	name = "Cheese";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Käse;
@@ -274,7 +274,7 @@ func void UseCheese()
 
 instance ItFoRice(C_Item)
 {
-	name = "Ry¿";
+	name = "Rice";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Reis;
@@ -297,7 +297,7 @@ func void UseRice()
 
 instance ItFoSoup(C_Item)
 {
-	name = "Zupa korzenna";
+	name = "Root Soup";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Wurzelsuppe;
@@ -320,7 +320,7 @@ func void UseSoup()
 
 instance ItFoMeatbugragout(C_Item)
 {
-	name = "Potrawka z chrz¹szcza";
+	name = "Meatbug Ragout";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Ragout;
@@ -344,7 +344,7 @@ func void UseMeatbugragout()
 
 instance ItFoCrawlersoup(C_Item)
 {
-	name = "Zupa z pe³zacza";
+	name = "Minecrawler Soup";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_CrawlerSuppe;
@@ -368,7 +368,7 @@ func void UseCrawlersoup()
 
 instance ItFo_Potion_Water_01(C_Item)
 {
-	name = "Woda";
+	name = "Water";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Wasser;
@@ -392,7 +392,7 @@ func void UseWaterPotion()
 
 instance ItFoBeer(C_Item)
 {
-	name = "Piwo";
+	name = "Beer";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Bier;
@@ -424,7 +424,7 @@ func void UseBeer()
 
 instance ItFoWine(C_Item)
 {
-	name = "Wino";
+	name = "Wine";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Wein;
@@ -456,7 +456,7 @@ func void UseWine()
 
 instance ItFoBooze(C_Item)
 {
-	name = "Ry¿ówka";
+	name = "Rice Schnapps";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Reisschnaps;
@@ -488,7 +488,7 @@ func void UseBooze()
 
 instance ItFo_Plants_Berrys_01(C_Item)
 {
-	name = "Jagody";
+	name = "Blueberries";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Waldbeeren;
@@ -513,7 +513,7 @@ func void UseBerrys()
 
 instance ItFo_Plants_Flameberry_01(C_Item)
 {
-	name = "Ogniocierñ";
+	name = "Flame Thorn";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Flammendorn;
@@ -538,7 +538,7 @@ func void Useflame()
 
 instance ItFo_Plants_Seraphis_01(C_Item)
 {
-	name = "Serafis";
+	name = "Seraphis";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Seraphis;
@@ -563,7 +563,7 @@ func void Useseraphis()
 
 instance ItFo_Plants_Velayis_01(C_Item)
 {
-	name = "Velais";
+	name = "Velayis";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Velayis;
@@ -588,7 +588,7 @@ func void UseVelayis()
 
 instance ItFo_Plants_mountainmoos_01(C_Item)
 {
-	name = "Górski mech";
+	name = "Mountain Moss";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Bergmoos;
@@ -613,7 +613,7 @@ func void Usemoos()
 
 instance ItFo_Plants_mountainmoos_02(C_Item)
 {
-	name = "Mech nagrobny";
+	name = "Grave Moss";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Grabmoos;
@@ -638,7 +638,7 @@ func void Usemoos2()
 
 instance ItFo_Plants_Nightshadow_01(C_Item)
 {
-	name = "Psianka";
+	name = "Solanaceae";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Nachtschatten;
@@ -663,7 +663,7 @@ func void Usenight()
 
 instance ItFo_Plants_Nightshadow_02(C_Item)
 {
-	name = "Kocianka";
+	name = "Lunanaceae";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Mondschatten;
@@ -688,7 +688,7 @@ func void Usemoon()
 
 instance ItFo_Plants_OrcHerb_01(C_Item)
 {
-	name = "Orkowe ziele";
+	name = "Orc Leaf";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Orkblatt;
@@ -713,7 +713,7 @@ func void Useorc()
 
 instance ItFo_Plants_OrcHerb_02(C_Item)
 {
-	name = "Liœæ dêbu";
+	name = "Oak Leaf";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Eichenblatt;
@@ -738,7 +738,7 @@ func void Useorc2()
 
 instance ItFo_Plants_mushroom_01(C_Item)
 {
-	name = "Piekielnik";
+	name = "Hell Mushrooms";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Höllenpilz;
@@ -773,7 +773,7 @@ func void Usemush()
 
 instance ItFo_Plants_mushroom_02(C_Item)
 {
-	name = "Gorzki chleb";
+	name = "Slave's Bread";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Sklavenbrot;
@@ -798,7 +798,7 @@ func void Usemush2()
 
 instance ItFo_Plants_Herb_01(C_Item)
 {
-	name = "S³abe zio³a uzdrawiaj¹ce";
+	name = "Healing Herbs";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Heilkräuter1;
@@ -823,7 +823,7 @@ func void UsePlants1()
 
 instance ItFo_Plants_Herb_02(C_Item)
 {
-	name = "Zio³a uzdrawiaj¹ce";
+	name = "Healing Herbs";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Heilkräuter2;
@@ -848,7 +848,7 @@ func void UsePlants2()
 
 instance ItFo_Plants_Herb_03(C_Item)
 {
-	name = "Silne zio³a uzdrawiaj¹ce";
+	name = "Healing Herbs";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Heilkräuter3;
@@ -873,7 +873,7 @@ func void UsePlants3()
 
 instance ItFo_Plants_Bloodwood_01(C_Item)
 {
-	name = "Nasienie czerwonego buka";
+	name = "Copper Beech Seed";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Blutbuche;
@@ -898,7 +898,7 @@ func void Useblood()
 
 instance ItFo_Plants_Towerwood_01(C_Item)
 {
-	name = "Nasienie wysokiego dêbu";
+	name = "Tower Oak Seed";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Turmeiche;
@@ -923,7 +923,7 @@ func void Useblood2()
 
 instance ItFo_Plants_RavenHerb_01(C_Item)
 {
-	name = "Krucze ziele";
+	name = "Raven Herbs";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Rabenkraut;
@@ -948,7 +948,7 @@ func void Useraven()
 
 instance ItFo_Plants_RavenHerb_02(C_Item)
 {
-	name = "Czarne ziele";
+	name = "Dark Herbs";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Dunkelkraut;
@@ -973,7 +973,7 @@ func void Useraven2()
 
 instance ItFo_Plants_Stoneroot_01(C_Item)
 {
-	name = "Twardzieñ";
+	name = "Stoneroot";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Steimwurzel;
@@ -998,7 +998,7 @@ func void Useroot()
 
 instance ItFo_Plants_Stoneroot_02(C_Item)
 {
-	name = "Dragrot";
+	name = "Dragonroot";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Drachenwurzel;
@@ -1023,7 +1023,7 @@ func void Useroot2()
 
 instance ItFo_Plants_Trollberrys_01(C_Item)
 {
-	name = "Trolest";
+	name = "Troll Nightshade";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Trollkirsche;

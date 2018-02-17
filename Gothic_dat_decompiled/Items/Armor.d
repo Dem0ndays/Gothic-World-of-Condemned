@@ -37,7 +37,7 @@ const int VALUE_GUR_ARMOR_UPGRADE = 2600;
 
 instance vlk_armor_l(C_Item)
 {
-	name = "Lekkie spodnie Kopacza";
+	name = "Light Digger's Trousers";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 10;
@@ -66,7 +66,7 @@ instance vlk_armor_l(C_Item)
 
 instance vlk_armor_m(C_Item)
 {
-	name = "Spodnie Kopacza";
+	name = "Digger's Trousers";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -95,7 +95,7 @@ instance vlk_armor_m(C_Item)
 
 instance stt_armor_m(C_Item)
 {
-	name = "Strój Cienia";
+	name = "Shadow's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -124,7 +124,7 @@ instance stt_armor_m(C_Item)
 
 instance stt_armor_h(C_Item)
 {
-	name = "Zbroja Cienia";
+	name = "Shadow's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -153,7 +153,7 @@ instance stt_armor_h(C_Item)
 
 instance grd_armor_l(C_Item)
 {
-	name = "Lekka zbroja Stra¿nika";
+	name = "Light Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -182,7 +182,7 @@ instance grd_armor_l(C_Item)
 
 instance grd_armor_m(C_Item)
 {
-	name = "Zbroja Stra¿nika";
+	name = "Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -211,7 +211,7 @@ instance grd_armor_m(C_Item)
 
 instance grd_armor_h(C_Item)
 {
-	name = "Ciê¿ka zbroja Stra¿nika";
+	name = "Heavy Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -240,7 +240,7 @@ instance grd_armor_h(C_Item)
 
 instance ebr_armor_m(C_Item)
 {
-	name = "Ozdobna szata";
+	name = "Robe of State";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -270,7 +270,7 @@ instance ebr_armor_m(C_Item)
 
 instance ebr_armor_h(C_Item)
 {
-	name = "Pancerz Gomeza";
+	name = "Gomez' Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 85;
@@ -301,7 +301,7 @@ instance ebr_armor_h(C_Item)
 
 instance ebr_armor_h2(C_Item)
 {
-	name = "Ciê¿ki pancerz Magnata";
+	name = "Heavy Ore Baron's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 80;
@@ -331,7 +331,7 @@ instance ebr_armor_h2(C_Item)
 
 instance sfb_armor_l(C_Item)
 {
-	name = "Strój Kopacza";
+	name = "Digger's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 10;
@@ -360,7 +360,7 @@ instance sfb_armor_l(C_Item)
 
 instance org_armor_l(C_Item)
 {
-	name = "Lekki strój Szkodnika";
+	name = "Light Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -389,7 +389,7 @@ instance org_armor_l(C_Item)
 
 instance org_armor_m(C_Item)
 {
-	name = "Strój Szkodnika";
+	name = "Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
@@ -418,7 +418,7 @@ instance org_armor_m(C_Item)
 
 instance org_armor_h(C_Item)
 {
-	name = "Ciê¿ki strój Szkodnika";
+	name = "Heavy Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -447,7 +447,7 @@ instance org_armor_h(C_Item)
 
 instance sld_armor_l(C_Item)
 {
-	name = "Lekka zbroja Najemnika";
+	name = "Light Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -476,7 +476,7 @@ instance sld_armor_l(C_Item)
 
 instance sld_armor_m(C_Item)
 {
-	name = "Zbroja Najemnika";
+	name = "Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -505,7 +505,7 @@ instance sld_armor_m(C_Item)
 
 instance sld_armor_h(C_Item)
 {
-	name = "Ciê¿ka zbroja Najemnika";
+	name = "Heavy Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -534,7 +534,7 @@ instance sld_armor_h(C_Item)
 
 instance nov_armor_l(C_Item)
 {
-	name = "Przepaska Nowicjusza";
+	name = "Novice's Loincloth";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -563,7 +563,7 @@ instance nov_armor_l(C_Item)
 
 instance nov_armor_m(C_Item)
 {
-	name = "Lekka zbroja Nowicjusza";
+	name = "Light Novice's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -592,7 +592,7 @@ instance nov_armor_m(C_Item)
 
 instance nov_armor_h(C_Item)
 {
-	name = "Zbroja Nowicjusza";
+	name = "Novice's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -621,7 +621,7 @@ instance nov_armor_h(C_Item)
 
 instance tpl_armor_l(C_Item)
 {
-	name = "Lekka zbroja Œwi¹tynna";
+	name = "Light Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -650,7 +650,7 @@ instance tpl_armor_l(C_Item)
 
 instance tpl_armor_m(C_Item)
 {
-	name = "Zbroja Œwi¹tynna";
+	name = "Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -679,7 +679,7 @@ instance tpl_armor_m(C_Item)
 
 instance tpl_armor_h(C_Item)
 {
-	name = "Ciê¿ka zbroja Œwi¹tynna";
+	name = "Heavy Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -708,7 +708,7 @@ instance tpl_armor_h(C_Item)
 
 instance gur_armor_m(C_Item)
 {
-	name = "Szata Guru";
+	name = "Guru's Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -737,7 +737,7 @@ instance gur_armor_m(C_Item)
 
 instance gur_armor_h(C_Item)
 {
-	name = "Zdobiona szata Guru";
+	name = "High Robe of the Gurus";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -766,7 +766,7 @@ instance gur_armor_h(C_Item)
 
 instance kdf_armor_l(C_Item)
 {
-	name = "Szata Ognia";
+	name = "Fire Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -795,7 +795,7 @@ instance kdf_armor_l(C_Item)
 
 instance kdf_armor_h(C_Item)
 {
-	name = "Zdobiona szata Ognia";
+	name = "High Robe of Fire";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -824,7 +824,7 @@ instance kdf_armor_h(C_Item)
 
 instance kdw_armor_l(C_Item)
 {
-	name = "Szata Wody";
+	name = "Water Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -853,7 +853,7 @@ instance kdw_armor_l(C_Item)
 
 instance kdw_armor_h(C_Item)
 {
-	name = "Zdobiona szata Wody";
+	name = "High Robe of Water";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -882,7 +882,7 @@ instance kdw_armor_h(C_Item)
 
 instance dmb_armor_m(C_Item)
 {
-	name = "Szata Mrocznych Sztuk";
+	name = "Robe of the Dark Arts";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 90;
@@ -912,7 +912,7 @@ instance dmb_armor_m(C_Item)
 
 instance crw_armor_h(C_Item)
 {
-	name = "Zbroja z pancerzy pe³zaczy";
+	name = "Crawler Plate Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 80;
@@ -941,7 +941,7 @@ instance crw_armor_h(C_Item)
 
 instance ore_armor_m(C_Item)
 {
-	name = "Staro¿ytna zbroja magiczna";
+	name = "Ancient Ore Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 95;
@@ -956,7 +956,7 @@ instance ore_armor_m(C_Item)
 	visual_skin = 0;
 	material = MAT_WOOD;
 	description = name;
-	text[0] = "Tê staro¿ytn¹ zbrojê wykonano z magicznej rudy.";
+	text[0] = "This ancient armor was made of magic ore.";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -971,7 +971,7 @@ instance ore_armor_m(C_Item)
 
 instance ore_armor_h(C_Item)
 {
-	name = "Wzmocniona zbroja magiczna";
+	name = "Improved Ore Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 105;
@@ -986,7 +986,7 @@ instance ore_armor_h(C_Item)
 	visual_skin = 0;
 	material = MAT_WOOD;
 	description = name;
-	text[0] = "Kowal Stone jeszcze j¹ ulepszy³!";
+	text[0] = "Stone, the smith, even managed to improve it!";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -1001,7 +1001,7 @@ instance ore_armor_h(C_Item)
 
 instance law_armor(C_Item)
 {
-	name = "Szata sêdziego";
+	name = "Judge's Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -1031,7 +1031,7 @@ instance law_armor(C_Item)
 
 instance grd_armor_i(C_Item)
 {
-	name = "Pancerz Stra¿y Królewskiej";
+	name = "Royal Guard Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1061,7 +1061,7 @@ instance grd_armor_i(C_Item)
 
 instance bab_armor_nude(C_Item)
 {
-	name = "Go³a babka";
+	name = "Nude Babe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	value = 1;
@@ -1079,7 +1079,7 @@ instance bab_armor_nude(C_Item)
 
 instance bab_armor_bikini(C_Item)
 {
-	name = "Babka w bikini";
+	name = "Bikini Babe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	value = 1;
@@ -1097,7 +1097,7 @@ instance bab_armor_bikini(C_Item)
 
 instance non_armor_h(C_Item)
 {
-	name = "Staro¿ytna zbroja Œwi¹tynna";
+	name = "Ancient Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 65;
@@ -1126,7 +1126,7 @@ instance non_armor_h(C_Item)
 
 instance non_armor_i(C_Item)
 {
-	name = "Pancerz Stra¿nika";
+	name = "Armor of the Guardian";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -1155,7 +1155,7 @@ instance non_armor_i(C_Item)
 
 instance non_armor_k(C_Item)
 {
-	name = "Pancerz ze skór b³otnych wê¿y";
+	name = "Swampshark Skin Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -1170,7 +1170,7 @@ instance non_armor_k(C_Item)
 	visual_skin = 0;
 	material = MAT_LEATHER;
 	description = name;
-	text[0] = "Wykonany ze skór b³otnych wê¿y.";
+	text[0] = "Made of swampsharks skins.";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -1185,7 +1185,7 @@ instance non_armor_k(C_Item)
 
 instance non_armor_l(C_Item)
 {
-	name = "Pancerz z wilczych skór";
+	name = "Wolfskin Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 20;
@@ -1200,7 +1200,7 @@ instance non_armor_l(C_Item)
 	visual_skin = 0;
 	material = MAT_LEATHER;
 	description = name;
-	text[0] = "Wykonany z wilczych futer.";
+	text[0] = "Made of wolfskins.";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -1215,7 +1215,7 @@ instance non_armor_l(C_Item)
 
 instance non_armor_n(C_Item)
 {
-	name = "Pancerz ze skór orkowych psów";
+	name = "Orc Dog Skin Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -1230,7 +1230,7 @@ instance non_armor_n(C_Item)
 	visual_skin = 0;
 	material = MAT_LEATHER;
 	description = name;
-	text[0] = "Wykonany ze skór orkowych psów.";
+	text[0] = "Made of orc dog skins.";
 	text[1] = NAME_Prot_Edge;
 	count[1] = protection[PROT_EDGE];
 	text[2] = NAME_Prot_Point;
@@ -1245,7 +1245,7 @@ instance non_armor_n(C_Item)
 
 instance non_armor_u(C_Item)
 {
-	name = "Pancerz ze skór topielców";
+	name = "Lurker Skin Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 30;
@@ -1274,7 +1274,7 @@ instance non_armor_u(C_Item)
 
 instance non_armor_p(C_Item)
 {
-	name = "Pancerz ze skór trolla";
+	name = "Troll Skin Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 70;
@@ -1303,7 +1303,7 @@ instance non_armor_p(C_Item)
 
 instance NOV_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona przepaska Nowicjusza";
+	name = "Improved Novice's Loincloth";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 25;
@@ -1332,7 +1332,7 @@ instance NOV_ARMOR_L_UPGRADE(C_Item)
 
 instance NOV_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona lekka zbroja Nowicjusza";
+	name = "Improved Light Novice's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
@@ -1361,7 +1361,7 @@ instance NOV_ARMOR_M_UPGRADE(C_Item)
 
 instance NOV_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zbroja Nowicjusza";
+	name = "Improved Novice's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -1390,7 +1390,7 @@ instance NOV_ARMOR_H_UPGRADE(C_Item)
 
 instance TPL_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona lekka zbroja Œwi¹tynna";
+	name = "Improved Light Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1419,7 +1419,7 @@ instance TPL_ARMOR_L_UPGRADE(C_Item)
 
 instance TPL_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zbroja Œwi¹tynna";
+	name = "Improved Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -1448,7 +1448,7 @@ instance TPL_ARMOR_M_UPGRADE(C_Item)
 
 instance TPL_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona ciê¿ka zbroja Œwi¹tynna";
+	name = "Improved Heavy Templar's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -1477,7 +1477,7 @@ instance TPL_ARMOR_H_UPGRADE(C_Item)
 
 instance STT_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniony strój Cienia";
+	name = "Improved Shadow's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
@@ -1506,7 +1506,7 @@ instance STT_ARMOR_M_UPGRADE(C_Item)
 
 instance STT_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zbroja Cienia";
+	name = "Improved Shadow's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -1535,7 +1535,7 @@ instance STT_ARMOR_H_UPGRADE(C_Item)
 
 instance GRD_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona lekka zbroja Stra¿nika";
+	name = "Improved Light Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1564,7 +1564,7 @@ instance GRD_ARMOR_L_UPGRADE(C_Item)
 
 instance GRD_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zbroja Stra¿nika";
+	name = "Improved Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -1593,7 +1593,7 @@ instance GRD_ARMOR_M_UPGRADE(C_Item)
 
 instance GRD_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona ciê¿ka zbroja Stra¿nika";
+	name = "Improved Heavy Guard's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -1622,7 +1622,7 @@ instance GRD_ARMOR_H_UPGRADE(C_Item)
 
 instance SFB_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniony strój Kopacza";
+	name = "Improved Digger's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -1651,7 +1651,7 @@ instance SFB_ARMOR_L_UPGRADE(C_Item)
 
 instance ORG_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniony lekki strój Szkodnika";
+	name = "Improved Light Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 35;
@@ -1680,7 +1680,7 @@ instance ORG_ARMOR_L_UPGRADE(C_Item)
 
 instance ORG_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniony strój Szkodnika";
+	name = "Improved Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 40;
@@ -1709,7 +1709,7 @@ instance ORG_ARMOR_M_UPGRADE(C_Item)
 
 instance ORG_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniony ciê¿ki strój Szkodnika";
+	name = "Improved Heavy Rogue's Dress";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 45;
@@ -1738,7 +1738,7 @@ instance ORG_ARMOR_H_UPGRADE(C_Item)
 
 instance SLD_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona lekka zbroja Najemnika";
+	name = "Improved Light Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1767,7 +1767,7 @@ instance SLD_ARMOR_L_UPGRADE(C_Item)
 
 instance SLD_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zbroja Najemnika";
+	name = "Improved Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 60;
@@ -1796,7 +1796,7 @@ instance SLD_ARMOR_M_UPGRADE(C_Item)
 
 instance SLD_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona ciê¿ka zbroja Najemnika";
+	name = "Improved Heavy Mercenary's Armor";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -1825,7 +1825,7 @@ instance SLD_ARMOR_H_UPGRADE(C_Item)
 
 instance KDF_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona szata Ognia";
+	name = "Improved Fire Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 50;
@@ -1854,7 +1854,7 @@ instance KDF_ARMOR_L_UPGRADE(C_Item)
 
 instance KDF_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zdobiona szata Ognia";
+	name = "Improved High Robe of Fire";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -1883,7 +1883,7 @@ instance KDF_ARMOR_H_UPGRADE(C_Item)
 
 instance KDW_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocniona szata Wody";
+	name = "Improved Water Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 65;
@@ -1912,7 +1912,7 @@ instance KDW_ARMOR_L_UPGRADE(C_Item)
 
 instance KDW_ARMOR_H_UPGRADE(C_Item)
 {
-	name = "Wzmocniona zdobiona szata Wody";
+	name = "Improved High Robe of Water";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 75;
@@ -1941,7 +1941,7 @@ instance KDW_ARMOR_H_UPGRADE(C_Item)
 
 instance DMB_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona szata Mrocznych Sztuk";
+	name = "Improved Robe of the Dark Arts";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 95;
@@ -1970,7 +1970,7 @@ instance DMB_ARMOR_M_UPGRADE(C_Item)
 
 instance VLK_ARMOR_L_UPGRADE(C_Item)
 {
-	name = "Wzmocnione lekkie spodnie Kopacza";
+	name = "Improved Light Digger's Trousers";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 15;
@@ -1999,7 +1999,7 @@ instance VLK_ARMOR_L_UPGRADE(C_Item)
 
 instance GUR_ARMOR_M_UPGRADE(C_Item)
 {
-	name = "Wzmocniona szata Guru";
+	name = "Improved Guru's Robe";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 90;
@@ -2028,7 +2028,7 @@ instance GUR_ARMOR_M_UPGRADE(C_Item)
 
 instance tpl_armor_m_whitebody(C_Item)
 {
-	name = "Zbroja Œwi¹tynna (tylko dla bia³oskórych!)";
+	name = "Templar's Armor (only for white skin npc's!)";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -2057,7 +2057,7 @@ instance tpl_armor_m_whitebody(C_Item)
 
 instance tpl_armor_m_latinobody(C_Item)
 {
-	name = "Zbroja Œwi¹tynna (tylko dla latynosów!)";
+	name = "Templar's Armor (only for latino skin npc's!)";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;
@@ -2086,7 +2086,7 @@ instance tpl_armor_m_latinobody(C_Item)
 
 instance TPL_ARMOR_M_BLACKBODY(C_Item)
 {
-	name = "Zbroja Œwi¹tynna (tylko dla ciemnoskórych!)";
+	name = "Templar's Armor (only for black skin npc's!)";
 	mainflag = ITEM_KAT_ARMOR;
 	flags = 0;
 	protection[PROT_EDGE] = 55;

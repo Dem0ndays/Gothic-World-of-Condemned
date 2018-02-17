@@ -3,7 +3,7 @@ const int Value_1H_Sword_01 = 100;
 
 instance ItMw_1H_Club_01(C_Item)
 {
-	name = "Pa³ka";
+	name = "Club";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -26,7 +26,7 @@ instance ItMw_1H_Club_01(C_Item)
 
 instance ItMw_1H_Poker_01(C_Item)
 {
-	name = "Pogrzebacz";
+	name = "Poker";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -49,7 +49,7 @@ instance ItMw_1H_Poker_01(C_Item)
 
 instance ItMw_1H_Sickle_01(C_Item)
 {
-	name = "Sierp";
+	name = "Sickle";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -72,7 +72,7 @@ instance ItMw_1H_Sickle_01(C_Item)
 
 instance ItMwPickaxe(C_Item)
 {
-	name = "Kilof";
+	name = "Pickaxe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -96,7 +96,7 @@ instance ItMwPickaxe(C_Item)
 
 instance ItMw_1H_Sledgehammer_01(C_Item)
 {
-	name = "M³ot kowalski";
+	name = "Smith's Hammer";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -119,7 +119,7 @@ instance ItMw_1H_Sledgehammer_01(C_Item)
 
 instance ItMw_1H_Mace_Light_01(C_Item)
 {
-	name = "Pa³ka";
+	name = "Club";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -142,7 +142,7 @@ instance ItMw_1H_Mace_Light_01(C_Item)
 
 instance ItMw_1H_Hatchet_01(C_Item)
 {
-	name = "Siekiera";
+	name = "Hand Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -165,7 +165,7 @@ instance ItMw_1H_Hatchet_01(C_Item)
 
 instance ItMw_1H_Sword_Old_01(C_Item)
 {
-	name = "Zardzewia³y miecz";
+	name = "Rusty Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -188,7 +188,7 @@ instance ItMw_1H_Sword_Old_01(C_Item)
 
 instance ItMw_1H_Nailmace_01(C_Item)
 {
-	name = "Kij z gwoŸdziem";
+	name = "Nail Club";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -211,7 +211,7 @@ instance ItMw_1H_Nailmace_01(C_Item)
 
 instance ItMw_1H_Sword_Short_01(C_Item)
 {
-	name = "Krótki miecz";
+	name = "Short Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -234,7 +234,7 @@ instance ItMw_1H_Sword_Short_01(C_Item)
 
 instance ItMw_1H_Sword_Short_02(C_Item)
 {
-	name = "Ch³opski miecz";
+	name = "Farmer's Defense";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -257,7 +257,7 @@ instance ItMw_1H_Sword_Short_02(C_Item)
 
 instance ItMw_1H_Sword_Short_03(C_Item)
 {
-	name = "Jêzyk topielca";
+	name = "Lurker's Bite";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -280,7 +280,7 @@ instance ItMw_1H_Sword_Short_03(C_Item)
 
 instance ItMw_1H_Sword_Short_04(C_Item)
 {
-	name = "K³uj¹cy cierñ";
+	name = "Thorn of Wounds";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -303,7 +303,7 @@ instance ItMw_1H_Sword_Short_04(C_Item)
 
 instance ItMw_1H_Sword_Short_05(C_Item)
 {
-	name = "Z¹b Kopacza";
+	name = "Digger's Discipline";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -326,7 +326,7 @@ instance ItMw_1H_Sword_Short_05(C_Item)
 
 instance ItMw_1H_Axe_Old_01(C_Item)
 {
-	name = "Wyszczerbiony topór";
+	name = "Withered Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -349,7 +349,7 @@ instance ItMw_1H_Axe_Old_01(C_Item)
 
 instance ItMw_1H_Scythe_01(C_Item)
 {
-	name = "Siekacz";
+	name = "Cutter";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -372,7 +372,7 @@ instance ItMw_1H_Scythe_01(C_Item)
 
 instance ItMw_2H_Staff_01(C_Item)
 {
-	name = "Kostur";
+	name = "Battle Staff";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -395,7 +395,7 @@ instance ItMw_2H_Staff_01(C_Item)
 
 instance ItMw_2H_Staff_02(C_Item)
 {
-	name = "Laska sêdziowska";
+	name = "Judgment Staff";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -418,7 +418,7 @@ instance ItMw_2H_Staff_02(C_Item)
 
 instance ItMw_2H_Staff_03(C_Item)
 {
-	name = "Laska kap³añska";
+	name = "Priest's Staff";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -441,7 +441,7 @@ instance ItMw_2H_Staff_03(C_Item)
 
 instance ItMw_1H_LightGuardsSword_03(C_Item)
 {
-	name = "Lekki miecz Stra¿nika";
+	name = "Light Guard's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -464,7 +464,7 @@ instance ItMw_1H_LightGuardsSword_03(C_Item)
 
 instance itmw_1h_lightguardssword_03_smith(C_Item)
 {
-	name = "Lekki miecz Stra¿nika";
+	name = "Light Guard's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -487,7 +487,7 @@ instance itmw_1h_lightguardssword_03_smith(C_Item)
 
 instance ItMw_1H_Mace_01(C_Item)
 {
-	name = "Maczuga";
+	name = "Mace";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -510,7 +510,7 @@ instance ItMw_1H_Mace_01(C_Item)
 
 instance itmw_1h_mace_01_smith(C_Item)
 {
-	name = "Maczuga";
+	name = "Mace";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -533,7 +533,7 @@ instance itmw_1h_mace_01_smith(C_Item)
 
 instance ItMw_1H_Mace_02(C_Item)
 {
-	name = "Æwiekowana maczuga";
+	name = "Sting Mace";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -556,7 +556,7 @@ instance ItMw_1H_Mace_02(C_Item)
 
 instance ItMw_1H_Mace_03(C_Item)
 {
-	name = "¯¹d³o krwiopijcy";
+	name = "Bloodfly Sting";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -579,7 +579,7 @@ instance ItMw_1H_Mace_03(C_Item)
 
 instance ItMw_1H_Mace_04(C_Item)
 {
-	name = "Stalowy jêzyk";
+	name = "Steel Tongue";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -602,7 +602,7 @@ instance ItMw_1H_Mace_04(C_Item)
 
 instance itmw_1h_mace_04_smith(C_Item)
 {
-	name = "Stalowy jêzyk";
+	name = "Steel Tongue";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -625,7 +625,7 @@ instance itmw_1h_mace_04_smith(C_Item)
 
 instance ItMw_1H_Sword_01(C_Item)
 {
-	name = "Niewykoñczony miecz";
+	name = "Crude Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -648,7 +648,7 @@ instance ItMw_1H_Sword_01(C_Item)
 
 instance itmw_1h_sword_01_smith(C_Item)
 {
-	name = "Niewykoñczony miecz";
+	name = "Crude Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -671,7 +671,7 @@ instance itmw_1h_sword_01_smith(C_Item)
 
 instance ItMw_1H_Sword_02(C_Item)
 {
-	name = "Miecz sêdziego";
+	name = "Judgment Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -694,7 +694,7 @@ instance ItMw_1H_Sword_02(C_Item)
 
 instance ItMw_1H_Sword_03(C_Item)
 {
-	name = "Miecz Stra¿nika";
+	name = "Guard's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -717,7 +717,7 @@ instance ItMw_1H_Sword_03(C_Item)
 
 instance itmw_1h_sword_03_smith(C_Item)
 {
-	name = "Miecz Stra¿nika";
+	name = "Guard's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -740,7 +740,7 @@ instance itmw_1h_sword_03_smith(C_Item)
 
 instance ItMw_1H_Sword_04(C_Item)
 {
-	name = "Miecz bojowy";
+	name = "Battle Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -763,7 +763,7 @@ instance ItMw_1H_Sword_04(C_Item)
 
 instance ItMw_1H_Sword_05(C_Item)
 {
-	name = "Miecz wojenny";
+	name = "War Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -786,7 +786,7 @@ instance ItMw_1H_Sword_05(C_Item)
 
 instance itmw_1h_sword_05_smith(C_Item)
 {
-	name = "Miecz wojenny";
+	name = "War Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -809,7 +809,7 @@ instance itmw_1h_sword_05_smith(C_Item)
 
 instance ItMw_1H_Mace_War_01(C_Item)
 {
-	name = "Morgensztern";
+	name = "Morning Star";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -832,7 +832,7 @@ instance ItMw_1H_Mace_War_01(C_Item)
 
 instance itmw_1h_mace_war_01_smith(C_Item)
 {
-	name = "Morgensztern";
+	name = "Morning Star";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -855,7 +855,7 @@ instance itmw_1h_mace_war_01_smith(C_Item)
 
 instance ItMw_1H_Mace_War_02(C_Item)
 {
-	name = "¯elazna maczuga";
+	name = "Steel Mace";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -878,7 +878,7 @@ instance ItMw_1H_Mace_War_02(C_Item)
 
 instance itmw_1h_mace_war_02_smith(C_Item)
 {
-	name = "¯elazna maczuga";
+	name = "Steel Mace";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -901,7 +901,7 @@ instance itmw_1h_mace_war_02_smith(C_Item)
 
 instance ItMw_1H_Mace_War_03(C_Item)
 {
-	name = "£omotacz";
+	name = "Stone Crusher";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -924,7 +924,7 @@ instance ItMw_1H_Mace_War_03(C_Item)
 
 instance itmw_1h_mace_war_03_smith(C_Item)
 {
-	name = "£omotacz";
+	name = "Stone Crusher";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -947,7 +947,7 @@ instance itmw_1h_mace_war_03_smith(C_Item)
 
 instance ItMw_1H_Mace_War_04(C_Item)
 {
-	name = "£amacz serc";
+	name = "Heartbreaker";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -970,7 +970,7 @@ instance ItMw_1H_Mace_War_04(C_Item)
 
 instance ItMw_1H_Sword_Long_01(C_Item)
 {
-	name = "D³ugi miecz";
+	name = "Longsword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -993,7 +993,7 @@ instance ItMw_1H_Sword_Long_01(C_Item)
 
 instance ItMw_1H_Sword_Long_02(C_Item)
 {
-	name = "Miecz Strachu";
+	name = "Sword of Fear";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1016,7 +1016,7 @@ instance ItMw_1H_Sword_Long_02(C_Item)
 
 instance ItMw_1H_Sword_Long_03(C_Item)
 {
-	name = "Miecz Nienawiœci";
+	name = "Sword of Hate";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1039,7 +1039,7 @@ instance ItMw_1H_Sword_Long_03(C_Item)
 
 instance ItMw_1H_Sword_Long_04(C_Item)
 {
-	name = "Miecz Zwyciêstwa";
+	name = "Sword of Victory";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1062,7 +1062,7 @@ instance ItMw_1H_Sword_Long_04(C_Item)
 
 instance ItMw_1H_Sword_Long_05(C_Item)
 {
-	name = "Miecz Œmierci";
+	name = "Sword of Death";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1085,7 +1085,7 @@ instance ItMw_1H_Sword_Long_05(C_Item)
 
 instance ItMw_1H_Warhammer_01(C_Item)
 {
-	name = "M³ot Orków";
+	name = "Orc Hammer";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1108,7 +1108,7 @@ instance ItMw_1H_Warhammer_01(C_Item)
 
 instance ItMw_1H_Warhammer_02(C_Item)
 {
-	name = "M³ot wojenny";
+	name = "War Hammer";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1131,7 +1131,7 @@ instance ItMw_1H_Warhammer_02(C_Item)
 
 instance ItMw_1H_Warhammer_03(C_Item)
 {
-	name = "Boski m³ot";
+	name = "God's Hammer";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1154,7 +1154,7 @@ instance ItMw_1H_Warhammer_03(C_Item)
 
 instance ItMw_1H_Axe_01(C_Item)
 {
-	name = "Topór";
+	name = "Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -1177,7 +1177,7 @@ instance ItMw_1H_Axe_01(C_Item)
 
 instance ITMW_1H_AXE_01_SMITH(C_Item)
 {
-	name = "Topór";
+	name = "Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -1200,7 +1200,7 @@ instance ITMW_1H_AXE_01_SMITH(C_Item)
 
 instance ItMw_1H_Axe_02(C_Item)
 {
-	name = "Gruchotacz";
+	name = "Scullclefter";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -1223,7 +1223,7 @@ instance ItMw_1H_Axe_02(C_Item)
 
 instance ItMw_1H_Axe_03(C_Item)
 {
-	name = "£amacz koœci";
+	name = "Bonebreaker";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_AXE | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -1246,7 +1246,7 @@ instance ItMw_1H_Axe_03(C_Item)
 
 instance ItMw_1H_Sword_Broad_01(C_Item)
 {
-	name = "Miecz szeroki";
+	name = "Broadsword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1269,7 +1269,7 @@ instance ItMw_1H_Sword_Broad_01(C_Item)
 
 instance ItMw_1H_Sword_Broad_02(C_Item)
 {
-	name = "Wyrok wojownika";
+	name = "Warrior's Verdict";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1292,7 +1292,7 @@ instance ItMw_1H_Sword_Broad_02(C_Item)
 
 instance ItMw_1H_Sword_Broad_03(C_Item)
 {
-	name = "Szept burzy";
+	name = "Storm Whisper";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1315,7 +1315,7 @@ instance ItMw_1H_Sword_Broad_03(C_Item)
 
 instance ItMw_1H_Sword_Broad_04(C_Item)
 {
-	name = "Rêka Stra¿nika";
+	name = "Guard's Hand";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1338,7 +1338,7 @@ instance ItMw_1H_Sword_Broad_04(C_Item)
 
 instance itmw_1h_sword_broad_04_smith(C_Item)
 {
-	name = "Rêka Stra¿nika";
+	name = "Guard's Hand";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1361,7 +1361,7 @@ instance itmw_1h_sword_broad_04_smith(C_Item)
 
 instance ItMw_2H_Sword_Old_01(C_Item)
 {
-	name = "Zardzewia³y miecz oburêczny";
+	name = "Rusty Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1384,7 +1384,7 @@ instance ItMw_2H_Sword_Old_01(C_Item)
 
 instance ItMw_1H_Sword_Bastard_01(C_Item)
 {
-	name = "Zardzewia³y miecz pó³torarêczny";
+	name = "Rusty Bastard Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1407,7 +1407,7 @@ instance ItMw_1H_Sword_Bastard_01(C_Item)
 
 instance ItMw_1H_Sword_Bastard_02(C_Item)
 {
-	name = "RzeŸnik";
+	name = "Butcher";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1430,7 +1430,7 @@ instance ItMw_1H_Sword_Bastard_02(C_Item)
 
 instance ItMw_1H_Sword_Bastard_03(C_Item)
 {
-	name = "Kat";
+	name = "Executor";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1453,7 +1453,7 @@ instance ItMw_1H_Sword_Bastard_03(C_Item)
 
 instance ItMw_1H_Sword_Bastard_04(C_Item)
 {
-	name = "Wrzask Berserkera";
+	name = "Berserker's Word";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1476,7 +1476,7 @@ instance ItMw_1H_Sword_Bastard_04(C_Item)
 
 instance ItMw_2H_Axe_Old_01(C_Item)
 {
-	name = "Stary topór bojowy";
+	name = "Old Battle Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1499,7 +1499,7 @@ instance ItMw_2H_Axe_Old_01(C_Item)
 
 instance ItMw_2H_Axe_Old_02(C_Item)
 {
-	name = "Krwawy ¿niwiarz";
+	name = "Blood Harvester";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1522,7 +1522,7 @@ instance ItMw_2H_Axe_Old_02(C_Item)
 
 instance ItMw_2H_Axe_Old_03(C_Item)
 {
-	name = "Stary sêdzia";
+	name = "Old Judge";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1545,7 +1545,7 @@ instance ItMw_2H_Axe_Old_03(C_Item)
 
 instance ItMw_2H_Sword_Light_01(C_Item)
 {
-	name = "Lekki miecz dwurêczny";
+	name = "Light Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1568,7 +1568,7 @@ instance ItMw_2H_Sword_Light_01(C_Item)
 
 instance itmw_2h_sword_light_01_smith(C_Item)
 {
-	name = "Lekki miecz dwurêczny";
+	name = "Light Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1591,7 +1591,7 @@ instance itmw_2h_sword_light_01_smith(C_Item)
 
 instance ItMw_2H_Sword_Light_02(C_Item)
 {
-	name = "Miecz nadzorcy";
+	name = "Custodian's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1614,7 +1614,7 @@ instance ItMw_2H_Sword_Light_02(C_Item)
 
 instance itmw_2h_sword_light_02_smith(C_Item)
 {
-	name = "Miecz nadzorcy";
+	name = "Custodian's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1637,7 +1637,7 @@ instance itmw_2h_sword_light_02_smith(C_Item)
 
 instance ItMw_2H_Sword_Light_03(C_Item)
 {
-	name = "Ostrze Najemnika";
+	name = "Mercenary's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1660,7 +1660,7 @@ instance ItMw_2H_Sword_Light_03(C_Item)
 
 instance ITMW_2H_SWORD_LIGHT_03_SMITH(C_Item)
 {
-	name = "Ostrze Najemnika";
+	name = "Mercenary's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1683,7 +1683,7 @@ instance ITMW_2H_SWORD_LIGHT_03_SMITH(C_Item)
 
 instance ItMw_2H_Sword_Light_04(C_Item)
 {
-	name = "Miecz królewski";
+	name = "King's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1706,7 +1706,7 @@ instance ItMw_2H_Sword_Light_04(C_Item)
 
 instance itmw_2h_sword_light_04_smith(C_Item)
 {
-	name = "Miecz królewski";
+	name = "King's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1729,7 +1729,7 @@ instance itmw_2h_sword_light_04_smith(C_Item)
 
 instance ItMw_2H_Sword_Light_05(C_Item)
 {
-	name = "Miecz demonów";
+	name = "Demonic Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1752,7 +1752,7 @@ instance ItMw_2H_Sword_Light_05(C_Item)
 
 instance ItMw_2H_Axe_light_01(C_Item)
 {
-	name = "Lekki topór bojowy";
+	name = "Light Battle Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1775,7 +1775,7 @@ instance ItMw_2H_Axe_light_01(C_Item)
 
 instance itmw_2h_axe_light_01_smith(C_Item)
 {
-	name = "Lekki topór bojowy";
+	name = "Light Battle Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1798,7 +1798,7 @@ instance itmw_2h_axe_light_01_smith(C_Item)
 
 instance ItMw_2H_Axe_light_02(C_Item)
 {
-	name = "Grzmot";
+	name = "Thunderstrike";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1821,7 +1821,7 @@ instance ItMw_2H_Axe_light_02(C_Item)
 
 instance ItMw_2H_Axe_light_03(C_Item)
 {
-	name = "Chrzêst";
+	name = "Smash";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1844,7 +1844,7 @@ instance ItMw_2H_Axe_light_03(C_Item)
 
 instance ItMw_2H_Sword_01(C_Item)
 {
-	name = "Dwurêczniak";
+	name = "Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1867,7 +1867,7 @@ instance ItMw_2H_Sword_01(C_Item)
 
 instance ITMW_2H_SWORD_01_SMITH(C_Item)
 {
-	name = "Dwurêczniak";
+	name = "Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1890,7 +1890,7 @@ instance ITMW_2H_SWORD_01_SMITH(C_Item)
 
 instance ItMw_2H_Sword_02(C_Item)
 {
-	name = "Ostrze bohatera";
+	name = "Hero's Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1913,7 +1913,7 @@ instance ItMw_2H_Sword_02(C_Item)
 
 instance ItMw_2H_Sword_03(C_Item)
 {
-	name = "Krwawe ostrze";
+	name = "Blood Blade";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1936,7 +1936,7 @@ instance ItMw_2H_Sword_03(C_Item)
 
 instance ItMw_2H_Sword_Heavy_01(C_Item)
 {
-	name = "Ciê¿ki dwurêczniak";
+	name = "Heavy Two-hander";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1959,7 +1959,7 @@ instance ItMw_2H_Sword_Heavy_01(C_Item)
 
 instance ItMw_2H_Sword_Heavy_02(C_Item)
 {
-	name = "Gniewna stal";
+	name = "Rage Steel";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1982,7 +1982,7 @@ instance ItMw_2H_Sword_Heavy_02(C_Item)
 
 instance ITMW_2H_SWORD_HEAVY_02_SMITH(C_Item)
 {
-	name = "Gniewna stal";
+	name = "Rage Steel";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2005,7 +2005,7 @@ instance ITMW_2H_SWORD_HEAVY_02_SMITH(C_Item)
 
 instance ItMw_2H_Sword_Heavy_03(C_Item)
 {
-	name = "Wœciek³a stal";
+	name = "Wrath Steel";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2028,7 +2028,7 @@ instance ItMw_2H_Sword_Heavy_03(C_Item)
 
 instance ItMw_2H_Sword_Heavy_04(C_Item)
 {
-	name = "Mœciwa stal";
+	name = "Revenge Steel";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2051,7 +2051,7 @@ instance ItMw_2H_Sword_Heavy_04(C_Item)
 
 instance ItMw_2H_Axe_Heavy_01(C_Item)
 {
-	name = "Topór wojenny";
+	name = "War Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2074,7 +2074,7 @@ instance ItMw_2H_Axe_Heavy_01(C_Item)
 
 instance itmw_2h_axe_heavy_01_smith(C_Item)
 {
-	name = "Topór wojenny";
+	name = "War Axe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2097,7 +2097,7 @@ instance itmw_2h_axe_heavy_01_smith(C_Item)
 
 instance ItMw_2H_Axe_Heavy_02(C_Item)
 {
-	name = "Krzyk wojownika";
+	name = "Warrior's Voice";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2120,7 +2120,7 @@ instance ItMw_2H_Axe_Heavy_02(C_Item)
 
 instance itmw_2h_axe_heavy_02_smith(C_Item)
 {
-	name = "Krzyk wojownika";
+	name = "Warrior's Voice";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2143,7 +2143,7 @@ instance itmw_2h_axe_heavy_02_smith(C_Item)
 
 instance ItMw_2H_Axe_Heavy_03(C_Item)
 {
-	name = "Piêœæ barbarzyñcy";
+	name = "Barbarian's Fist";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2166,7 +2166,7 @@ instance ItMw_2H_Axe_Heavy_03(C_Item)
 
 instance ItMw_2H_Axe_Heavy_04(C_Item)
 {
-	name = "Piêœæ trolla";
+	name = "Troll Fist";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2357,7 +2357,7 @@ instance ItRwUdOrcstaff(C_Item)
 
 instance ITMW_1H_SWORD_SHORT_06(C_Item)
 {
-	name = "Zardzewia³y szpon zêbacza";
+	name = "Rusty Claw of Snapper";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2380,7 +2380,7 @@ instance ITMW_1H_SWORD_SHORT_06(C_Item)
 
 instance ITMW_2H_SWORD_04(C_Item)
 {
-	name = "Cienisty tasak";
+	name = "Shadow Cleaver";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2403,7 +2403,7 @@ instance ITMW_2H_SWORD_04(C_Item)
 
 instance ITMW_1H_SWORD_BASTARD_06(C_Item)
 {
-	name = "Szept Zag³ady";
+	name = "Whisper of Death";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2426,7 +2426,7 @@ instance ITMW_1H_SWORD_BASTARD_06(C_Item)
 
 instance scorpio_crossbow(C_Item)
 {
-	name = "Lekka kusza";
+	name = "Light Crossbow";
 	mainflag = ITEM_KAT_FF;
 	flags = ITEM_CROSSBOW | ITEM_MULTI;
 	material = MAT_WOOD;
@@ -2449,7 +2449,7 @@ instance scorpio_crossbow(C_Item)
 
 instance fletcher_sword(C_Item)
 {
-	name = "Lekki miecz Stra¿nika";
+	name = "Light Guard's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2473,7 +2473,7 @@ instance fletcher_sword(C_Item)
 
 instance slys_sword(C_Item)
 {
-	name = "Z¹b Kopacza";
+	name = "Digger's Discipline";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -2497,7 +2497,7 @@ instance slys_sword(C_Item)
 
 instance RODRIGUEZ_STAFF(C_Item)
 {
-	name = "Kostur";
+	name = "Battle Staff";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI;
 	material = MAT_WOOD;

@@ -34,7 +34,7 @@ const int Value_Alcohol = 18;
 
 instance ItKeLockpick(C_Item)
 {
-	name = "Wytrych";
+	name = "Picklock";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Dietrich;
@@ -47,7 +47,7 @@ instance ItKeLockpick(C_Item)
 
 instance ItKeKey1(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Schlüssel;
@@ -60,7 +60,7 @@ instance ItKeKey1(C_Item)
 
 instance ItKeKey2(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Schlüssel;
@@ -73,7 +73,7 @@ instance ItKeKey2(C_Item)
 
 instance ItKeKey3(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Schlüssel;
@@ -86,7 +86,7 @@ instance ItKeKey3(C_Item)
 
 instance ItKeKey4(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Schlüssel;
@@ -99,7 +99,7 @@ instance ItKeKey4(C_Item)
 
 instance ItKeCavalorn01(C_Item)
 {
-	name = "Klucz Cavalorna";
+	name = "Cavalorn's Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = Value_Schlüssel;
@@ -112,7 +112,7 @@ instance ItKeCavalorn01(C_Item)
 
 instance ItMiStomper(C_Item)
 {
-	name = "Rozdrabniacz";
+	name = "Weed Masher";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -125,7 +125,7 @@ instance ItMiStomper(C_Item)
 
 instance ItMiHammer(C_Item)
 {
-	name = "M³otek";
+	name = "Hammer";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -138,7 +138,7 @@ instance ItMiHammer(C_Item)
 
 instance ItMiScoop(C_Item)
 {
-	name = "Drewniana ³y¿ka";
+	name = "Wooden Spoon";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -151,7 +151,7 @@ instance ItMiScoop(C_Item)
 
 instance ItMiFlask(C_Item)
 {
-	name = "Kolba";
+	name = "Lab Flask";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -164,7 +164,7 @@ instance ItMiFlask(C_Item)
 
 instance ItMiSwordraw(C_Item)
 {
-	name = "Stal";
+	name = "Raw Steel";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordRaw;
@@ -177,7 +177,7 @@ instance ItMiSwordraw(C_Item)
 
 instance ItMiSwordrawhot(C_Item)
 {
-	name = "Rozgrzane ostrze";
+	name = "Glowing Steel";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordRawHot;
@@ -190,7 +190,7 @@ instance ItMiSwordrawhot(C_Item)
 
 instance ItMiSwordbladehot(C_Item)
 {
-	name = "Rozgrzane ostrze";
+	name = "Glowing Blade";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordBladeHot;
@@ -203,7 +203,7 @@ instance ItMiSwordbladehot(C_Item)
 
 instance ItMiSwordblade(C_Item)
 {
-	name = "Ostrze";
+	name = "Blade";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_SwordBlade;
@@ -216,7 +216,7 @@ instance ItMiSwordblade(C_Item)
 
 instance ItLsTorchFirespit(C_Item)
 {
-	name = "Pochodnia";
+	name = "Torch";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH;
 	value = Value_MobsiItem;
@@ -230,7 +230,7 @@ instance ItLsTorchFirespit(C_Item)
 
 instance ItMiLute(C_Item)
 {
-	name = "Lutnia";
+	name = "Lute";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Laute;
@@ -256,7 +256,7 @@ func void UseLute()
 
 instance ItMiWedel(C_Item)
 {
-	name = "Liœæ palmowy";
+	name = "Palm Frond";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -270,7 +270,7 @@ instance ItMiWedel(C_Item)
 
 instance ItMiBrush(C_Item)
 {
-	name = "Szczotka";
+	name = "Brush";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_MobsiItem;
@@ -284,7 +284,7 @@ instance ItMiBrush(C_Item)
 
 instance ItMiJoint_1(C_Item)
 {
-	name = "Zielony Nowicjusz";
+	name = "Green Novice";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint1;
@@ -315,7 +315,7 @@ func void UseItMiJoint_1()
 
 instance ItMiJoint_2(C_Item)
 {
-	name = "Mrok Pó³nocy";
+	name = "Northern Dark";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint2;
@@ -345,7 +345,7 @@ func void UseItMiJoint_2()
 
 instance ItMiJoint_3(C_Item)
 {
-	name = "Zew nocy";
+	name = "Dreamcall";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint3;
@@ -377,7 +377,7 @@ func void UseItMiJoint_3()
 
 instance ItMiNugget(C_Item)
 {
-	name = "Bry³ka rudy";
+	name = "Ore Nugget";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Erzbrocken;
@@ -390,7 +390,7 @@ instance ItMiNugget(C_Item)
 
 instance ItLsTorch(C_Item)
 {
-	name = "Pochodnia";
+	name = "Torch";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
 	value = Value_Fackel;
@@ -403,7 +403,7 @@ instance ItLsTorch(C_Item)
 
 instance ItLsTorchburning(C_Item)
 {
-	name = "P³on¹ca pochodnia";
+	name = "Burning Torch";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH;
 	value = 0;
@@ -414,7 +414,7 @@ instance ItLsTorchburning(C_Item)
 
 instance ItLsTorchburned(C_Item)
 {
-	name = "Pochodnia";
+	name = "Torch";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_BURN | ITEM_TORCH | ITEM_MULTI;
 	value = 0;
@@ -425,7 +425,7 @@ instance ItLsTorchburned(C_Item)
 
 instance ItMi_Plants_Swampherb_01(C_Item)
 {
-	name = "Bagienne ziele";
+	name = "Swampweed";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfkraut;
@@ -438,7 +438,7 @@ instance ItMi_Plants_Swampherb_01(C_Item)
 
 instance itmi_plants_rice_01(C_Item)
 {
-	name = "Ry¿ siewny";
+	name = "Rice Plant";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Sumpfkraut;
@@ -451,7 +451,7 @@ instance itmi_plants_rice_01(C_Item)
 
 instance ItMi_Stuff_Pipe_01(C_Item)
 {
-	name = "Fajka";
+	name = "Pipe";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pfeife;
@@ -464,7 +464,7 @@ instance ItMi_Stuff_Pipe_01(C_Item)
 
 instance ItMi_Stuff_Barbknife_01(C_Item)
 {
-	name = "Brzytwa";
+	name = "Razor";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Rasiermesser;
@@ -477,7 +477,7 @@ instance ItMi_Stuff_Barbknife_01(C_Item)
 
 instance ItMi_Stuff_OldCoin_01(C_Item)
 {
-	name = "Moneta";
+	name = "Coin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Münze;
@@ -490,7 +490,7 @@ instance ItMi_Stuff_OldCoin_01(C_Item)
 
 instance ItMi_Stuff_OldCoin_02(C_Item)
 {
-	name = "Moneta";
+	name = "Coin";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI | ITEM_MISSION;
 	value = Value_Münze;
@@ -503,7 +503,7 @@ instance ItMi_Stuff_OldCoin_02(C_Item)
 
 instance ItMi_Stuff_Plate_01(C_Item)
 {
-	name = "Talerz";
+	name = "Plate";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Schüssel;
@@ -516,7 +516,7 @@ instance ItMi_Stuff_Plate_01(C_Item)
 
 instance ItMi_Stuff_Candel_01(C_Item)
 {
-	name = "Œwiecznik";
+	name = "Candlestick";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Kerzenständer;
@@ -529,7 +529,7 @@ instance ItMi_Stuff_Candel_01(C_Item)
 
 instance ItMi_Stuff_Cup_01(C_Item)
 {
-	name = "Kubek";
+	name = "Tumbler";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Becher;
@@ -542,7 +542,7 @@ instance ItMi_Stuff_Cup_01(C_Item)
 
 instance ItMi_Stuff_Cup_02(C_Item)
 {
-	name = "Puchar";
+	name = "Goblet";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pokal;
@@ -555,7 +555,7 @@ instance ItMi_Stuff_Cup_02(C_Item)
 
 instance ItMi_Stuff_Silverware_01(C_Item)
 {
-	name = "Sztuæce";
+	name = "Cutlery";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Besteck;
@@ -568,7 +568,7 @@ instance ItMi_Stuff_Silverware_01(C_Item)
 
 instance ItMi_Stuff_Pan_01(C_Item)
 {
-	name = "Patelnia";
+	name = "Pan";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Pfanne;
@@ -581,7 +581,7 @@ instance ItMi_Stuff_Pan_01(C_Item)
 
 instance ItMi_Stuff_Mug_01(C_Item)
 {
-	name = "Dzban";
+	name = "Jug";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Krug;
@@ -594,7 +594,7 @@ instance ItMi_Stuff_Mug_01(C_Item)
 
 instance ItMi_Stuff_Amphore_01(C_Item)
 {
-	name = "Amfora";
+	name = "Amphora";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Amphore;
@@ -607,7 +607,7 @@ instance ItMi_Stuff_Amphore_01(C_Item)
 
 instance ItMi_Stuff_Idol_Ogront_01(C_Item)
 {
-	name = "Pos¹¿ek";
+	name = "Statue";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Statue;
@@ -620,7 +620,7 @@ instance ItMi_Stuff_Idol_Ogront_01(C_Item)
 
 instance ItMi_Alchemy_Sulphur_01(C_Item)
 {
-	name = "Siarka";
+	name = "Sulfur";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Schwefel;
@@ -633,7 +633,7 @@ instance ItMi_Alchemy_Sulphur_01(C_Item)
 
 instance ItMi_Alchemy_Quicksilver_01(C_Item)
 {
-	name = "Rtêæ";
+	name = "Mercury";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Quecksilber;
@@ -646,7 +646,7 @@ instance ItMi_Alchemy_Quicksilver_01(C_Item)
 
 instance ItMi_Alchemy_Salt_01(C_Item)
 {
-	name = "Sól";
+	name = "Salt";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Salz;
@@ -659,7 +659,7 @@ instance ItMi_Alchemy_Salt_01(C_Item)
 
 instance ItMi_Alchemy_Syrianoil_01(C_Item)
 {
-	name = "Olej syrianiczny";
+	name = "Syrianic Oil";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Öl;
@@ -672,7 +672,7 @@ instance ItMi_Alchemy_Syrianoil_01(C_Item)
 
 instance ItMi_Alchemy_Moleratlubric_01(C_Item)
 {
-	name = "Sad³o kretoszczura";
+	name = "Molerat Grease";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Moleratfett;
@@ -685,7 +685,7 @@ instance ItMi_Alchemy_Moleratlubric_01(C_Item)
 
 instance ItMi_Alchemy_Alcohol_01(C_Item)
 {
-	name = "Czysty alkohol";
+	name = "Pure Alcohol";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Alcohol;
