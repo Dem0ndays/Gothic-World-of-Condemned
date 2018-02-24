@@ -1,7 +1,7 @@
 
 instance ItWr_GolemBook1(C_Item)
 {
-	name = "Arcanum Golum - Tom I";
+	name = "Arcanum Golum - Volume I";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 100;
@@ -21,25 +21,25 @@ func void UseGolemBook1()
 	Doc_SetPage(nDocID,1,"Book_Mage_R.tga",0);
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,0,275,20,30,20,1);
-	Doc_PrintLine(nDocID,0,"Arcanum Golum - Tom I");
+	Doc_PrintLine(nDocID,0,"ARCANUM GOLUM - Volume I");
 	Doc_PrintLine(nDocID,0,"=====================");
-	Doc_PrintLines(nDocID,0,"(Magia Golemów)");
+	Doc_PrintLines(nDocID,0,"(Magic of the Golems)");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Tylko ktoœ, kto choæ raz stawi³ czo³a ucieleœnieniu ¿ywio³ów, jakim jest Golem, zrozumie lêk i respekt, jaki istoty te budz¹ wœród najmê¿niejszych nawet podró¿ników.");
+	Doc_PrintLines(nDocID,0,"Only who has been confronted with these creatures that came from the elements can truly understand how much respect these magical beings will teach an adventurous wanderer.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
-	Doc_PrintLine(nDocID,1,"Kamienny Golem");
+	Doc_PrintLine(nDocID,1,"Stone Golem");
 	Doc_PrintLine(nDocID,1,"------------");
-	Doc_PrintLines(nDocID,1,"Te kamienne kolosy s¹ niemal niezniszczalne. ¯aden miecz, topór czy ³uk nie jest w stanie wyrz¹dziæ im powa¿niejszej krzywdy.");
+	Doc_PrintLines(nDocID,1,"These colossuses of stone are nearly invulnerable in battle. Swords, axes and bows do not seem to do any damage to these monsters.");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Jedyne doniesienia o zwyciêskiej walce stoczonej z Golemem pochodz¹ z zapisków bezimiennego najemnika. Opisa³ on jak potê¿nymi ciosami wojennego m³ota uda³o mu siê rozbiæ potê¿nego nieprzyjaciela w drobny py³.");
+	Doc_PrintLines(nDocID,1,"The only plausible report of a battle against such a leviathan was written by a mercenary. He reported how the blunt hit of a war hammer caused cracks in the golem, until it finally burst apart.");
 	Doc_Show(nDocID);
 };
 
 
 instance ItWr_GolemBook2(C_Item)
 {
-	name = "Arcanum Golum - Tom II";
+	name = "Arcanum Golum - Volume II";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 100;
@@ -59,27 +59,27 @@ func void UseGolemBook2()
 	Doc_SetPage(nDocID,1,"Book_Mage_R.tga",0);
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,0,275,20,30,20,1);
-	Doc_PrintLine(nDocID,0,"Arcanum Golum - Tom II");
+	Doc_PrintLine(nDocID,0,"ARCANUM GOLUM - Volume II");
 	Doc_PrintLine(nDocID,0,"======================");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Lodowy Golem");
+	Doc_PrintLine(nDocID,0,"Ice Golem");
 	Doc_PrintLine(nDocID,0,"---------");
-	Doc_PrintLines(nDocID,0,"Lodowe Golemy przypominaj¹ trochê swych kamiennych krewniaków i s¹ równie niebezpieczne. Zwyczajna broñ zeœlizguje siê po ich lodowej powierzchni, nie wyrz¹dzaj¹c im najmniejszych szkód.");
-	Doc_PrintLines(nDocID,0,"Podró¿nik, który stanie oko w oko z takow¹ besti¹ musi baczyæ na lodowaty dech stwora, jeœli nie chce zostaæ zamienionym w sopel lodu.");
+	Doc_PrintLines(nDocID,0,"The ice golems are somehow related to the stone golems, though their physical substance seems to consist of water. Any familiar weapon seems to slide off the surface of this icy being.");
+	Doc_PrintLines(nDocID,0,"Adventurous wanderers be warned of this creature's icy breath as well, because it surrounds the unsuspecting with a pillar of ice.");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
-	Doc_PrintLines(nDocID,1,"Powszechnie znany jest dokument, w którym jeden z Magów Ognia opisuje swoj¹ potyczkê z lodowym Golemem. Co ciekawe, zdaniem maga, walka nie nastrêcza³a mu zbytnich trudnoœci.");
+	Doc_PrintLines(nDocID,1,"A Magician of Fire reported an encounter with such a creature, but apparently he didn't see much of a threat in it.");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLine(nDocID,1,"Ognisty Golem");
+	Doc_PrintLine(nDocID,1,"Fire Golem");
 	Doc_PrintLine(nDocID,1,"------------");
-	Doc_PrintLines(nDocID,1,"Wed³ug dawnych doniesieñ, golemy ognia obdarzone s¹ parz¹cym dotykiem o niszczycielskiej sile.");
-	Doc_PrintLines(nDocID,1,"Kilka lat temu grupa myœliwych stawi³a czo³a jednemu z owych potworów, i choæ wynik starcia pozostaje nieznany, mówi siê, ¿e ogniste golemy podatne s¹ na zaklêcia b³yskawic i zimna.");
+	Doc_PrintLines(nDocID,1,"According to reports, these fiery beings can convert their victims into a sea of flames with only one touch.");
+	Doc_PrintLines(nDocID,1,"It was only last year that a group of hunters met such a walking mound of embers. There is no report on the outcome of the encounter, but apparently lightning bolts and ice had some effect on the hellish creature.");
 	Doc_Show(nDocID);
 };
 
 
 instance ItWrWorldmap_Orc(C_Item)
 {
-	name = "Mapa";
+	name = "Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 250;
@@ -87,9 +87,9 @@ instance ItWrWorldmap_Orc(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UseWorldmap_Orc;
-	description = "Mapa kolonii (uzupe³niona)";
-	text[0] = "Szaman Ur-Shak uzupe³ni³ mapê";
-	text[1] = "o terytoria nale¿¹ce do orków!";
+	description = "Map of the Colony (supplemented)";
+	text[0] = "Ur-Shak, the Orc shaman, has sketched in";
+	text[1] = "the Orc territory!";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -108,21 +108,21 @@ func void UseWorldmap_Orc()
 
 instance ItKe_Freemine(C_Item)
 {
-	name = "Klucz do Wolnej Kopalni";
+	name = "Key to the Free Mine";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
-	description = "Klucz do Wolnej Kopalni";
+	description = "Key to the Free Mine";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance OrcMedicine(C_Item)
 {
-	name = "Lekarstwo orków";
-	mainflag = ITEM_KAT_NONE;
+	name = "Orc Medicine";
+	mainflag = ITEM_KAT_POTIONS;
 	flags = ITEM_MISSION;
 	value = 0;
 	visual = "ITFO_POTION_STRENGTH_01.3DS";
@@ -130,7 +130,7 @@ instance OrcMedicine(C_Item)
 	on_state[0] = UseOrcMedicine;
 	scemeName = "POTION";
 	description = name;
-	text[0] = "Efekt: Nieznany";
+	text[0] = "Effect: Unknown";
 };
 
 
@@ -162,9 +162,9 @@ instance UluMulu(C_Item)
 	visual_skin = 0;
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Ulu-Mulu œwiadczy o wielkiej sile i odwadze";
-	text[1] = "posiadacza. Wojownik, który nosi ten amulet";
-	text[2] = "nie musi siê obawiaæ ataku ze strony orków!";
+	text[0] = "The Ulu-Mulu is a sign of great strength and";
+	text[1] = "dignity. The bearer of this standard won't";
+	text[2] = "be attacked by the Orcs!";
 	text[3] = NAME_Damage;
 	count[3] = damageTotal;
 	text[4] = NAME_Str_needed;
@@ -175,20 +175,20 @@ instance UluMulu(C_Item)
 
 instance itke_corristo(C_Item)
 {
-	name = "Klucz Corristo";
+	name = "Corristo's Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
-	description = "Klucz Corristo";
+	description = "Corristo's Key";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ITWR_CORRISTO_01(C_Item)
 {
-	name = "Notatka";
+	name = "Note";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 15;
@@ -196,11 +196,11 @@ instance ITWR_CORRISTO_01(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = usecorristo_01;
-	description = "Notatka";
+	description = "Note";
 	text[0] = "";
-	text[1] = "Notatka, która";
-	text[2] = "znajdowa³a siê w skrzyni";
-	text[3] = "Maga Ognia.";
+	text[1] = "Note, which";
+	text[2] = "was in the chest";
+	text[3] = "of fire magician.";
 };
 
 
@@ -215,7 +215,7 @@ func void usecorristo_01()
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Skoro Xardas opuœci³ nasz zakon i poœwiêci³ siê swoim mrocznym badaniom, schowam jego rzeczy do tej skrzyni. Te runy s¹ zbyt potê¿ne, bym móg³ je gdzieœ tutaj tak po prostu zostawiæ. Klucz bêdê zawsze trzyma³ przy sobie, ¿eby czasem nikt nie wpad³ na pomys³ otwarcia tej skrzyni bez mojej wiedzy.");
+	Doc_PrintLines(nDocID,0,"Xardas left our order and devoted himself to his dark research, so I'm hiding his belongings into this chest. These runes are too powerful to leave them laying somewhere here. I will always keep the key with myself, so no one can get access to this chest without my knowledge.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -230,26 +230,26 @@ func void usecorristo_01()
 
 instance itkey_kalom_gur_01(C_Item)
 {
-	name = "Klucz do skrzyni Kaloma";
+	name = "Key to the Kalom's Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Do osobistej skrzyni Cor Kaloma.";
+	text[0] = "Opens Kalom's chest.";
 };
 
 instance itkey_raven_ebr_01(C_Item)
 {
-	name = "Klucz do skrzyni Kruka";
+	name = "Key to the Raven's Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Do osobistej skrzyni";
-	text[1] = "Kruka.";
+	text[0] = "Opens Raven's chest.";
+	//text[1] = "Raven.";
 };
 

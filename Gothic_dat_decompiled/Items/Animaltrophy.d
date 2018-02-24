@@ -321,7 +321,7 @@ instance ItAt_IceGolem_02(C_Item)
 	material = MAT_STONE;
 	description = name;
 	text[0] = "This is a fragment of";
-	text[1] = "a defeated ice golem."
+	text[1] = "a defeated ice golem.";
 	text[4] = NAME_Value;
 	count[4] = Value_Eistueck;
 };

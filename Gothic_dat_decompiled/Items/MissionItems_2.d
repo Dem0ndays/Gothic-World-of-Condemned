@@ -1,7 +1,7 @@
 
 instance ItWrFocusmapPsi(C_Item)
 {
-	name = "Mapa od Y'Beriona";
+	name = "Y'Berion's Focus Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 15;
@@ -10,9 +10,9 @@ instance ItWrFocusmapPsi(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseFocusmapPsi;
 	description = name;
-	text[1] = "Ta mapa wskazuje po³o¿enie kamienia";
-	text[2] = "ogniskuj¹cego, który pozwoli";
-	text[3] = "Y'Berionowi wezwaæ Œni¹cego.";
+	text[1] = "This map shows the way to the focus";
+	text[2] = "stone which Y'Berion needs to";
+	text[3] = "invoke the Sleeper.";
 };
 
 
@@ -29,7 +29,7 @@ func void UseFocusmapPsi()
 
 instance Focus_1(C_Item)
 {
-	name = "Kamieñ z morskiego klifu";
+	name = "Focus from the Ocean Cliff";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	hp = 1;
@@ -39,22 +39,22 @@ instance Focus_1(C_Item)
 	visual = "ItMi_Focus_01.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[1] = "Jeden z piêciu artefaktów u¿ytych";
-	text[2] = "przy tworzeniu Bariery.";
+	text[1] = "One of the five focus stones";
+	text[2] = "used to create the Magic Barrier.";
 };
 
 instance ItMi_Stuff_Gearwheel_01(C_Item)
 {
-	name = "Ko³o zêbate";
+	name = "Gearwheel";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 0;
 	visual = "ItMi_Stuff_Gearwheel_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Pochodzi z uszkodzonego rozdrabniacza";
-	text[1] = "porzuconego w bocznym tunelu";
-	text[2] = "Starej Kopalni.";
+	text[0] = "It is from a broken ore masher which";
+	text[1] = "was left in an abandoned side tunnel";
+	text[2] = "of the Old Mine.";
 };
 
 instance ItAt_Crawlerqueen(C_Item)
@@ -76,7 +76,7 @@ instance ItAt_Crawlerqueen(C_Item)
 
 instance ItWrFokusbuch(C_Item)
 {
-	name = "Almanach";
+	name = "Almanac";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -85,9 +85,9 @@ instance ItWrFokusbuch(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseItWrFokusbuch;
 	description = name;
-	text[0] = "Ta staro¿ytna, magiczna ksiêga zawiera";
-	text[1] = "fragmenty traktuj¹ce o wykorzystaniu ";
-	text[2] = "mocy kamieni ogniskuj¹cych.";
+	text[0] = "This ancient magic book contains some";
+	text[1] = "magic formulas which all refer to the use";
+	text[2] = "of so-called focus stones.";
 };
 
 
@@ -105,21 +105,21 @@ func void UseItWrFokusbuch()
 	Doc_SetPage(nDocID,1,"Book_Mage_R.tga",0);
 	Doc_SetFont(nDocID,-1,"font_15_book.tga");
 	Doc_SetMargins(nDocID,0,275,20,30,20,1);
-	Doc_PrintLine(nDocID,0,"Rozdzia³ 23");
+	Doc_PrintLine(nDocID,0,"Chapter 23");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
-	Doc_PrintLine(nDocID,0,"Ogniskowanie mocy");
+	Doc_PrintLine(nDocID,0,"The Focusing of Powers");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Magia skumulowana w kamieniu ulega wielokrotnemu wzmocnieniu zanim wyzwol¹ j¹ s³owa zaklêcia. To, czy efekt bêdzie trwa³y czy tylko chwilowy, zale¿y wy³¹cznie od maga. ");
+	Doc_PrintLines(nDocID,0,"The power inherent in the stone increases continuously and is unleashed by the words of the magician. Be it lasting or a single blow, this is within his judgment alone.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Tym samym, po wyzwoleniu energii, kamieñ staje siê jeno pust¹, pozbawion¹ mocy skorup¹.");
+	Doc_PrintLines(nDocID,0,"But once unleashed, the focus becomes devoid of power, remaining but an empty shell.");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"S³owa, które nale¿y wypowiedzieæ, aby uwolniæ moc kamienia, nie powinny byæ zagadk¹ dla wiêkszoœci adeptów sztuk magicznych. W dzisiejszych czasach, nawet formu³y pozwalaj¹ce tchn¹æ magiê w nowy artefakt spowszednia³y. ");
+	Doc_PrintLines(nDocID,1,"The words that must be spoken to unleash the power of a focus are accessible to many artists of arcane power. Even the knowledge of endowing a new artifact with magic powers has become more of a magical custom than a secret of the knowing.");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Ale tylko nieliczni maj¹ umiejêtnoœci potrzebne do ponownego na³adowania kamienia. Te prastare formu³y s¹ pilnie strze¿onym sekretem arcymistrzów magii.");
+	Doc_PrintLines(nDocID,1,"But only a chosen few have the knowledge needed to recharge a used focus stone. This formula of days long past serves as a sign of the high gift.");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Zatem, Mêdrcze - otwórz sw¹ duszê na s³owa staro¿ytnej potêgi.  ");
+	Doc_PrintLines(nDocID,1,"Now, oh knowing one, open your mind to the words of the ancient power.");
 	Doc_Show(nDocID);
 };
 

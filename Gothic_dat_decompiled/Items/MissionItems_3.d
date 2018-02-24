@@ -1,7 +1,7 @@
 
 instance OrkParchmentOne(C_Item)
 {
-	name = "Po³owa pergaminu";
+	name = "Half of a Parchment";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -12,15 +12,15 @@ instance OrkParchmentOne(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "Fragment staro¿ytnego pergaminu.";
-	text[1] = "Dolna po³owa zosta³a oderwana.";
-	text[2] = "Pismo przypomina runy zdobi¹ce";
-	text[3] = "œciany jaskini.";
+	text[0] = "A part of an ancient parchment.";
+	text[1] = "Looks like the bottom part was torn off.";
+	text[2] = "The writing resembles the runes on";
+	text[3] = "the cave's walls.";
 };
 
 instance OrkParchmentTwo(C_Item)
 {
-	name = "Po³owa pergaminu";
+	name = "Half of a Parchment";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -31,30 +31,30 @@ instance OrkParchmentTwo(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "Fragment staro¿ytnego pergaminu.";
-	text[1] = "Górna po³owa zosta³a oderwana.";
-	text[2] = "Pismo przypomina runy zdobi¹ce";
-	text[3] = "œciany jaskini.";
+	text[0] = "A part of an ancient parchment.";
+	text[1] = "Looks like the upper part was torn off.";
+	text[2] = "The writing resembles the runes on";
+	text[3] = "the cave's walls.";
 };
 
 instance itke_psi_kalom_01(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_04.3ds";
 	material = MAT_METAL;
-	description = "Klucz do laboratorium";
-	text[0] = "Otwiera skrzyniê w laboratorium";
-	text[1] = "alchemicznym w obozie Bractwa.";
+	description = "Lab Key";
+	text[0] = "Opens the chest in the alchemy lab";
+	text[1] = "of the swamp camp.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ItWrFocimap(C_Item)
 {
-	name = "Mapa od Saturasa";
+	name = "Saturas' Focus Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 15;
@@ -63,12 +63,12 @@ instance ItWrFocimap(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseFocimap;
 	description = name;
-	text[0] = "Rogi pentagramu znacz¹ ";
-	text[1] = "po³o¿enie wszystkich piêciu";
-	text[2] = "kamieni ogniskuj¹cych, u¿ytych do";
-	text[3] = "stworzenia Bariery. Mapa jest bardzo";
-	text[4] = "stara i kamienie mog³y ju¿ zostaæ";
-	text[5] = "przeniesione w inne miejsce.";
+	text[0] = "The tips of the pentagram";
+	text[1] = "reveal the locations of all five";
+	text[2] = "focus stones which were used to create";
+	text[3] = "the Magic Barrier. The map is old";
+	text[4] = "and the stones might have been moved to";
+	text[5] = "other places since.";
 };
 
 
@@ -85,7 +85,7 @@ func void UseFocimap()
 
 instance ItWr_Troll_01(C_Item)
 {
-	name = "Strona z dziennika";
+	name = "Journal Page";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -94,10 +94,10 @@ instance ItWr_Troll_01(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseTroll;
 	description = name;
-	text[1] = "Bardzo zniszczona strona.";
-	text[2] = "Pismo ledwie mo¿na rozpoznaæ.";
-	text[3] = "Poprzedni w³aœciciel by³ najwyraŸniej";
-	text[4] = "³owc¹ trolli.";
+	text[1] = "A very withered page whose";
+	text[2] = "writing can hardly be recognized.";
+	text[3] = "The former owner seems to";
+	text[4] = "have been a troll hunter.";
 };
 
 
@@ -109,22 +109,22 @@ func void UseTroll()
 	Doc_SetPage(nDocID,0,"letters.TGA",0);
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_SetFont(nDocID,-1,"font_15_book.tga");
-	Doc_PrintLine(nDocID,0,"Dzieñ 169");
+	Doc_PrintLine(nDocID,0,"Day 169");
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Dziœ mi siê uda, jestem pewien. Bogowie bêd¹ mi sprzyjali. Wypróbowa³em ju¿ wszystko: najtwardsza stal pêka w zetkniêciu z tward¹ skór¹ trolla, strza³y po prostu odbijaj¹ siê od niego.");
+	Doc_PrintLines(nDocID,0,"Today I'll make it. I know it. The gods will be with me. I've tried everything to kill a troll. The strongest steel had no effect, arrows just bounced off as if his skin were made of stone.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Teraz jednak wykorzystam magiczne zaklêcie, które kupi³em od kupca w Khorinis. Zap³aci³em za nie s³on¹ cenê, ale myœliwskie trofea, które zdobêdê przy jego u¿yciu, odp³ac¹ mi wszystko z nawi¹zk¹.");
+	Doc_PrintLines(nDocID,0,"Now I'll use this magic scroll the merchant in Khorinis sold me. It cost me 50 pieces of gold, but with the profit I'll make with these trophies, I'll be rich.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Dzisiaj zabijê trolla.");
+	Doc_PrintLines(nDocID,0,"Today I'll kill a troll.");
 	Doc_Show(nDocID);
 };
 
 
 instance Focus_2(C_Item)
 {
-	name = "Kamieñ z kanionu trolli";
+	name = "Focus from the Troll Canyon";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	hp = 1;
@@ -134,29 +134,28 @@ instance Focus_2(C_Item)
 	visual = "ItMi_Focus_01.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[1] = "Jeden z piêciu artefaktów u¿ytych";
-	text[2] = "przy tworzeniu Bariery.";
+	text[1] = "One of the five focus stones which were used";
+	text[2] = "to create the Magic Barrier.";
 };
 
 instance ItKe_BERG_01(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Opuszczona górska forteca.";
-	text[1] = "Zardzewia³y klucz do skrzyni.";
-	text[2] = "";
+	text[0] = "Old mountain fort.";
+	text[1] = "An old rusty key to a chest.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ItWr_Urkunde_01(C_Item)
 {
-	name = "Akt w³asnoœci";
+	name = "Certificate";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 15;
@@ -164,11 +163,10 @@ instance ItWr_Urkunde_01(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UseUrkunde;
-	description = name;
-	text[0] = "Nadaje w³aœcicielowi prawo do";
-	text[1] = "ziem, na których le¿y forteca.";
-	text[2] = "";
-	text[5] = "Wartoœæ:                     400 funtów z³ota";
+	description = "Title Deed";
+	text[0] = "Entitles the holder to claim the";
+	text[1] = "territory of the mountain fort.";
+	text[5] = "Value                                   400 pounds of gold";
 };
 
 
@@ -180,18 +178,18 @@ func void UseUrkunde()
 	Doc_SetPage(nDocID,0,"letters.TGA",0);
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_SetFont(nDocID,-1,"font_15_book.tga");
-	Doc_PrintLine(nDocID,0,"Dokument");
+	Doc_PrintLine(nDocID,0,"Certificate");
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Ja, Bergmar, Burgrabia Zachodnich Terytoriów i sêdzia z nadania mojego Mi³oœciwego Pana, Lorda Tymorisin, terenów wokó³ Khorinis... Niniejszym oœwiadczam, ¿e... przekazujê posiadaczowi tego dokumentu... i domowi Innosa ziemie przynale¿ne tej fortecy wraz z ca³ym lennem i nale¿¹cymi do nich kopalniami za 400 funtów z³ota.");
+	Doc_PrintLines(nDocID,0,"I, Bergmar, Burgrave of the Western Field and presiding judge over the lands of my Lord of Tymorisin, the region surrounding Khorinis, ... hereby declare ... that I ... surrender and sell ... to the holder of this document ... and to the house of Innos the fief of the mountain fort (along with further tenths of my revenue and the mines contained therein) for 400 units of gold.");
 	Doc_Show(nDocID);
 };
 
 
 instance Fakescroll(C_Item)
 {
-	name = "List";
+	name = "Letter";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -208,7 +206,7 @@ instance Fakescroll(C_Item)
 
 instance Focus_3(C_Item)
 {
-	name = "Kamieñ z górskiej fortecy";
+	name = "Focus from the Mountain Fort";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	hp = 1;
@@ -218,26 +216,26 @@ instance Focus_3(C_Item)
 	visual = "ItMi_Focus_01.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[1] = "Jeden z piêciu artefaktów u¿ytych";
-	text[2] = "przy tworzeniu Bariery.";
+	text[1] = "One of the five focus stones which were used";
+	text[2] = "to create the Magic Barrier.";
 };
 
 instance ItKe_Focus4(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[1] = "Ten klucz pochodzi z jaskini";
-	text[2] = "przed ruinami klasztoru.";
+	text[1] = "This key stems from the cave in front of";
+	text[2] = "the monastery ruins.";
 };
 
 instance Focus_4(C_Item)
 {
-	name = "Kamieñ ze starego klasztoru";
+	name = "Focus from the Ruined Monastery";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	hp = 1;
@@ -247,13 +245,13 @@ instance Focus_4(C_Item)
 	visual = "ItMi_Focus_01.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[1] = "Jeden z piêciu artefaktów u¿ytych";
-	text[2] = "przy tworzeniu Bariery.";
+	text[1] = "One of the five focus stones which were used";
+	text[2] = "to create the Magic Barrier.";
 };
 
 instance ItMi_OrcTalisman(C_Item)
 {
-	name = "Talizman orków";
+	name = "Orc Talisman";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_AMULET | ITEM_MISSION;
 	value = 1000;
@@ -283,20 +281,20 @@ func void UnEquip_OrcTalisman()
 
 instance ItKe_Focus5(C_Item)
 {
-	name = "Klucz";
+	name = "Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 3;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[1] = "Ten klucz pochodzi z krypty";
-	text[2] = "pod kamiennym krêgiem.";
+	text[1] = "This key is from the crypt";
+	text[2] = "beneath the ring of stone.";
 };
 
 instance Focus_5(C_Item)
 {
-	name = "Kamieñ z kamiennego krêgu";
+	name = "Focus underneath the Ring of Stone";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	hp = 1;
@@ -306,13 +304,13 @@ instance Focus_5(C_Item)
 	visual = "ItMi_Focus_01.3ds";
 	material = MAT_STONE;
 	description = name;
-	text[1] = "Jeden z piêciu artefaktów u¿ytych";
-	text[2] = "przy tworzeniu Bariery.";
+	text[1] = "One of the five focus stones which were used";
+	text[2] = "to create the Magic Barrier.";
 };
 
 instance ore_bandits_message(C_Item)
 {
-	name = "Wiadomoœæ";
+	name = "Message";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -323,7 +321,7 @@ instance ore_bandits_message(C_Item)
 	scemeName = "MAP";
 	on_state[0] = useore_bandits_message;
 	description = name;
-	text[0] = "Nale¿a³a do rozbójnika nad rzek¹.";
+	text[0] = "It belonged to bandit at the river.";
 	text[1] = "";
 };
 
@@ -337,12 +335,12 @@ func void useore_bandits_message()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Schowa³em dostawê rudy w dole rzeki, w jaskini. Niestety teraz ju¿ siê do niej nie dostanê, bo jakiœ topielec siê tam zal¹g³. Pewnie bêdê musia³ poczekaæ, a¿ siê stamt¹d znowu wyprowadzi. W koñcu te bestie s¹ diabelnie twarde, a i dla mnie lepiej, bym postara³ siê wreszcie o jak¹œ lepsz¹ broñ.");
+	Doc_PrintLines(nDocID,0,"I hid the ore package in the cave, down by the river. Unfortunately, now I am not able to get it back, because one of the lurkers chose this place for its den. I guess, I will have to wait until that beast leaves the cave. After all, lurkers are very tough creatures and I would need some better weapon...");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"P.S.: Tylko ³apy precz od mojej rudy, kto znajdzie tê wiadomoœæ, albo ciê znajdê i zabiorê swoj¹ nale¿noœæ z powrotem!");
+	Doc_PrintLines(nDocID,0,"P.S. If anyone finds this message: keep your hands off my ore, or I will find you and get my property back!");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -357,7 +355,7 @@ func void useore_bandits_message()
 
 instance ore_bandits_message2(C_Item)
 {
-	name = "Wiadomoœæ";
+	name = "Message";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -368,7 +366,7 @@ instance ore_bandits_message2(C_Item)
 	scemeName = "MAP";
 	on_state[0] = useore_bandits_message2;
 	description = name;
-	text[0] = "Nale¿a³a do rozbójnika w w¹wozie.";
+	text[0] = "It belonged to bandit from the ravine.";
 	text[1] = "";
 };
 
@@ -382,7 +380,7 @@ func void useore_bandits_message2()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"To by³a dobra decyzja, ¿eby zwiaæ ze Starego Obozu. Dwóch z nas skierowa³o siê do obozowiska na orkowych terenach i zabra³o rudê ze sob¹. Nied³ugo bêdziemy zbieraæ siê do drogi, a potem podzielimy siê rud¹.");
+	Doc_PrintLines(nDocID,0,"It was good decision to leave the Old Camp. Two of us headed to the camp located in the orc territory and took the ore with them. Soon we will march away and share the ore.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"");
@@ -402,7 +400,7 @@ func void useore_bandits_message2()
 
 instance ore_bandits_message3(C_Item)
 {
-	name = "Wiadomoœæ";
+	name = "Message";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -413,7 +411,7 @@ instance ore_bandits_message3(C_Item)
 	scemeName = "MAP";
 	on_state[0] = useore_bandits_message3;
 	description = name;
-	text[0] = "Nale¿a³a do rozbójnika na klifie.";
+	text[0] = "It belonged to bandit from the cliff.";
 	text[1] = "";
 };
 
@@ -427,7 +425,7 @@ func void useore_bandits_message3()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Rozdzieliliœmy siê. Nie mam pojêcia, gdzie skry³a siê reszta ch³opaków. Rozbiliœmy nasz obóz na szczycie klifu, nad jaskini¹ pe³nej tych czarnych goblinów. Uda³o mi siê noc¹ przekraœæ w góry i ukryæ rudê w jaskini pomiêdzy tymi wszystkimi ogarami.");
+	Doc_PrintLines(nDocID,0,"We split up. I have no idea where rest of the boys hid. We set our camp on the top of a cliff, above a cave full of these black goblins. At night, I managed to sneak into the mountains and hide the ore in the cave between all these hounds.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"");
@@ -447,7 +445,7 @@ func void useore_bandits_message3()
 
 instance ore_bandits_message4(C_Item)
 {
-	name = "Wiadomoœæ";
+	name = "Message";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -458,7 +456,7 @@ instance ore_bandits_message4(C_Item)
 	scemeName = "MAP";
 	on_state[0] = useore_bandits_message4;
 	description = name;
-	text[0] = "Nale¿a³a do rozbójnika na orkowych terenach.";
+	text[0] = "It belonged to bandit from orc territory.";
 	text[1] = "";
 };
 
@@ -472,7 +470,7 @@ func void useore_bandits_message4()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Nie by³ to nawet taki z³y pomys³, ¿eby skierowaæ swe kroki na orkowe tereny. ¯aden z ludzi Gomeza nas tu nie znajdzie. Dziêki tej rudzie z pewnoœci¹ bêdziemy mogli wieœæ cudowne ¿ycie w Nowym Obozie. Tylko najpierw ta sprawa musi trochê ucichn¹æ. W koñcu szczury Gomeza tak szybko nie odpuszcz¹.");
+	Doc_PrintLines(nDocID,0,"It wasn't such a bad idea to hide on the orc territory. None from Gomez's people will find us here. Thanks to this ore soon we will certainly be able to have a wonderful life in the New Camp. But first the things must settle down a little. Gomez's rats will not give up so quickly.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLines(nDocID,0,"");

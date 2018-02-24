@@ -1,7 +1,7 @@
 
 instance MordragsRing(C_Item)
 {
-	name = "Pierœcieñ Mordraga";
+	name = "Mordrag's Ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = 250;
@@ -10,7 +10,7 @@ instance MordragsRing(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_MordragsRing;
 	on_unequip = UnEquip_MordragsRing;
-	description = "Pierœcieñ Mordraga";
+	description = "Mordrag's Ring";
 	text[2] = NAME_Bonus_Dex;
 	count[2] = 5;
 	text[5] = NAME_Value;
@@ -31,7 +31,7 @@ func void UnEquip_MordragsRing()
 
 instance SpecialJoint(C_Item)
 {
-	name = "Przygotowany Zew Nocy";
+	name = "Prepared Dreamcall";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Joint3 * 10;
@@ -39,9 +39,9 @@ instance SpecialJoint(C_Item)
 	material = MAT_WOOD;
 	scemeName = "JOINT";
 	on_state[0] = UseSpecialJoint;
-	text[0] = "Bagienne ziele o";
-	text[1] = "mocniejszym dzia³aniu.";
-	text[3] = "To dla Guru Baal-Tyona!";
+	text[0] = "Swampweed with a stronger";
+	text[1] = "effect than normal weed.";
+	text[3] = "For the Guru Baal-Tyon!";
 	text[5] = NAME_Value;
 	count[4] = Value_Joint3 * 10;
 };
@@ -55,7 +55,7 @@ func void UseSpecialJoint()
 
 instance ItAt_DamLurker_01(C_Item)
 {
-	name = "Szpony topielca spod tamy";
+	name = "Dam Lurker's Claws";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = Value_Lurkerklaue;
@@ -68,7 +68,7 @@ instance ItAt_DamLurker_01(C_Item)
 
 instance ItWrOMMap(C_Item)
 {
-	name = "Mapa";
+	name = "Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 30;
@@ -95,7 +95,7 @@ func void UseOMmap()
 
 instance AltesSchwertVM(C_Item)
 {
-	name = "Stary Miecz";
+	name = "Old Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -117,7 +117,7 @@ instance AltesSchwertVM(C_Item)
 
 instance AltesSchwert(C_Item)
 {
-	name = "Stary Miecz";
+	name = "Old Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MISSION;
 	material = MAT_METAL;
@@ -138,7 +138,7 @@ instance AltesSchwert(C_Item)
 
 instance JackalsSword(C_Item)
 {
-	name = "Miecz Szakala";
+	name = "Jackal's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD;
 	material = MAT_METAL;
@@ -168,14 +168,14 @@ instance KdW_Amulett(C_Item)
 	visual = "ItMi_Amulet_01.3ds";
 	visual_skin = 0;
 	material = MAT_METAL;
-	description = "Amulet kuriera Magów Wody";
+	description = "Messenger's amulet of the Magicians of Water";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance Cronos_Brief(C_Item)
 {
-	name = "List";
+	name = "Letter";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -183,7 +183,7 @@ instance Cronos_Brief(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = UseCronosBrief;
 	scemeName = "MAP";
-	description = "List Cronosa do Magów Ognia";
+	description = "Cronos' letter to the Magicians of Fire";
 };
 
 
@@ -196,14 +196,14 @@ func void UseCronosBrief()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0," ");
-	Doc_PrintLine(nDocID,0,"Czcigodny Mistrzu Corristo,");
+	Doc_PrintLine(nDocID,0,"Venerable Master Corristo,");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
-	Doc_PrintLines(nDocID,0,"Saturas, szacowny arcymistrz Magów Krêgu Wody, usilnie prosi o zjednoczenie naszych wysi³ków w celu roz³adowania napiêæ pomiêdzy Starym a Nowym Obozem do poziomu, który sprzyja³by interesom obydwu stron. Jako strona zaopatruj¹ca regularnie Jego Wysokoœæ w magiczn¹ rudê docenicie z pewnoœci¹ nasze starania o ograniczenie przestêpczej dzia³alnoœci Szkodników na terenach przynale¿¹cych do waszego obozu. My ze swej strony pragniemy otrzymaæ gwarancjê, ¿e cz³onkowie Starego Obozu nie bêd¹ przeciwstawiaæ siê próbie przerwania magicznej Bariery, której wiêŸniami pozostajemy przecie¿ my wszyscy.");
+	Doc_PrintLines(nDocID,0,"Saturas, highly esteemed master of the Magicians of the Circle of Water, entreats you to aid us in ensuring that the tension between the Old and New Camps remains within the bounds of what is conducive to both parties. Since you are responsible for securing the King's monthly consignment of ore, it must surely be in your best interests to restrict the activities of the rogues from the New Camp. Furthermore, it is our wish that the Old Camp take no more steps to endanger our endeavor to reopen the Magic Barrier that imprisons us all.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Za³¹czam wyrazy szacunku,");
+	Doc_PrintLine(nDocID,0,"I remain in anticipation of your speedy reply,");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"            Cronos, Stra¿nik Rudy");
+	Doc_PrintLine(nDocID,0,"            Cronos, Keeper of the Ore");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetMargins(nDocID,-1,200,50,50,50,1);
@@ -222,8 +222,8 @@ instance Neks_Amulett(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Schutzamulett_Nek;
 	on_unequip = UnEquip_Schutzamulett_Nek;
-	description = "Amulet martwego Stra¿nika";
-	text[1] = "Wyryto na nim litery NEK.";
+	description = "Amulet of the Dead Guard";
+	text[1] = "It says NEK on the back.";
 	text[2] = NAME_Prot_Edge;
 	count[2] = 5;
 	text[5] = NAME_Value;
@@ -246,7 +246,7 @@ func void UnEquip_Schutzamulett_Nek()
 
 instance DEXTERJOINT(C_Item)
 {
-	name = "Natchnienie ducha";
+	name = "Enlightenment of the Mind";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	hp = 10;
@@ -258,9 +258,9 @@ instance DEXTERJOINT(C_Item)
 	scemeName = "JOINT";
 	on_state[0] = usedexterjoint;
 	description = name;
-	text[0] = "To ziele ma";
-	text[1] = "wyj¹tkowy wp³yw";
-	text[2] = "na œwiadomoœæ ofiary.";
+	text[0] = "This herb";
+	text[1] = "has special effect";
+	text[2] = "on the counsciousness.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -274,7 +274,7 @@ func void usedexterjoint()
 
 instance HealthWater(C_Item)
 {
-	name = "Napój uzdrawiaj¹cy dla Y'Beriona";
+	name = "Healing Potion for Y'Berion";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 10;
@@ -287,7 +287,7 @@ instance HealthWater(C_Item)
 
 instance TheList(C_Item)
 {
-	name = "Lista";
+	name = "List";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -298,8 +298,8 @@ instance TheList(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseTheList;
 	description = name;
-	text[0] = "Ian, szef Starej Kopalni spisa³";
-	text[1] = "tutaj swoje zamówienia.";
+	text[0] = "Ian, the Old Mine's boss, has";
+	text[1] = "listed their requirements.";
 };
 
 
@@ -311,16 +311,16 @@ func void UseTheList()
 	Doc_SetPage(nDocID,0,"letters.TGA",0);
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
-	Doc_PrintLine(nDocID,0,"Lista zamówieñ");
+	Doc_PrintLine(nDocID,0,"List of requirements");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"20 bochnów chleba - tylko bez pleœni, jeœli ³aska!");
-	Doc_PrintLine(nDocID,0,"25-30 jab³ek");
-	Doc_PrintLine(nDocID,0,"10 kawa³ków sera");
-	Doc_PrintLine(nDocID,0,"1 chochla");
-	Doc_PrintLine(nDocID,0,"1 szczotka");
-	Doc_PrintLine(nDocID,0,"5 kilofów + 3 m³otki");
-	Doc_PrintLines(nDocID,0,"I uczciw¹ porcjê ziela - no wiecie, pierwsza dostawa w tym miesi¹cu! ");
-	Doc_PrintLine(nDocID,0,"Spodziewamy siê dostawy najpóŸniej pojutrze.");
+	Doc_PrintLines(nDocID,0,"20 loafs of bread - not the moldy sort this time!");
+	Doc_PrintLine(nDocID,0,"25 - 30  apples");
+	Doc_PrintLine(nDocID,0,"10 lumps of cheese");
+	Doc_PrintLine(nDocID,0,"1 soup ladle");
+	Doc_PrintLine(nDocID,0,"1 brush");
+	Doc_PrintLine(nDocID,0,"5 pickaxes + 3 hammers");
+	Doc_PrintLines(nDocID,0,"And a liberal amount of swampweed - you know, first consignment of the month! ");
+	Doc_PrintLine(nDocID,0,"We're expecting the delivery for the day after tomorrow.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"IAN");
@@ -332,7 +332,7 @@ func void UseTheList()
 
 instance TheListNC(C_Item)
 {
-	name = "Lista (poszerzona)";
+	name = "List (extended)";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	hp = 5;
@@ -343,10 +343,10 @@ instance TheListNC(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseTheListNC;
 	description = name;
-	text[0] = "Ian, szef Starej Kopalni spisa³";
-	text[1] = "tutaj swoje zamówienia.";
-	text[2] = "(Lares doda³ kilka rzeczy. Trzeba przyznaæ,";
-	text[3] = "¿e fa³szerstwo jest nie do wykrycia!)";
+	text[0] = "Ian, the boss of the Old Mine, has listed";
+	text[1] = "up their required deliveries.";
+	text[2] = "(Lares has added some points. A really";
+	text[3] = "good forgery!)";
 };
 
 
@@ -358,25 +358,25 @@ func void UseTheListNC()
 	Doc_SetPage(nDocID,0,"letters.TGA",0);
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
-	Doc_PrintLine(nDocID,0,"Lista zamówieñ");
+	Doc_PrintLine(nDocID,0,"List of requirements");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"20 bochnów chleba - tylko bez pleœni, jeœli ³aska!");
-	Doc_PrintLine(nDocID,0,"25-30 jab³ek");
-	Doc_PrintLine(nDocID,0,"10 kawa³ków sera");
-	Doc_PrintLine(nDocID,0,"1 chochla");
-	Doc_PrintLine(nDocID,0,"1 szczotka");
-	Doc_PrintLine(nDocID,0,"5 kilofów + 3 m³otki");
-	Doc_PrintLines(nDocID,0,"I uczciw¹ porcjê ziela - no wiecie, pierwsza dostawa w tym miesi¹cu! ");
-	Doc_PrintLine(nDocID,0,"Spodziewamy siê dostawy najpóŸniej pojutrze.");
+	Doc_PrintLines(nDocID,0,"20 loafs of bread - not the moldy sort this time!");
+	Doc_PrintLine(nDocID,0,"25 - 30  apples");
+	Doc_PrintLine(nDocID,0,"10 lumps of cheese");
+	Doc_PrintLine(nDocID,0,"1 soup ladle");
+	Doc_PrintLine(nDocID,0,"1 brush");
+	Doc_PrintLine(nDocID,0,"5 pickaxes + 3 hammers");
+	Doc_PrintLines(nDocID,0,"And a liberal amount of swampweed - you know, first consignment of the month! ");
+	Doc_PrintLine(nDocID,0,"We're expecting the delivery for the day after tomorrow.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"IAN");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"W³aœnie mi siê przypomnia³o:");
-	Doc_PrintLine(nDocID,0,"30 butelek piwa");
-	Doc_PrintLine(nDocID,0,"5 butelek wina");
-	Doc_PrintLine(nDocID,0,"25 sma¿onych udŸców œcierwojadów");
-	Doc_PrintLine(nDocID,0,"z pó³ tuzina sztuk orê¿a");
+	Doc_PrintLine(nDocID,0,"I just remembered:");
+	Doc_PrintLine(nDocID,0,"30 bottles of beer");
+	Doc_PrintLine(nDocID,0,"5 bottles of wine");
+	Doc_PrintLine(nDocID,0,"25 grilled scavenger drumsticks");
+	Doc_PrintLine(nDocID,0,"half a dozen replacement weapons");
 	Doc_SetMargins(nDocID,-1,200,50,50,50,1);
 	Doc_Show(nDocID);
 };
@@ -393,7 +393,7 @@ instance Lares_Ring(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_Lares_Ring;
 	on_unequip = UnEquip_Lares_Ring;
-	description = "Pierœcieñ Laresa";
+	description = "Lares' Ring";
 	text[2] = NAME_Bonus_Str;
 	count[2] = 3;
 	text[5] = NAME_Value;
@@ -422,7 +422,7 @@ instance Heiltrank(C_Item)
 	material = MAT_GLAS;
 	on_state[0] = UseHeiltrank;
 	scemeName = "POTION";
-	description = "Napój b³yskawicznego uzdrowienia";
+	description = "Potion of Quick Healing";
 	text[2] = NAME_Bonus_HP;
 	count[2] = 30;
 	text[5] = NAME_Value;
@@ -440,7 +440,7 @@ func void UseHeiltrank()
 
 instance SpecialWater(C_Item)
 {
-	name = "Magiczna woda";
+	name = "Magic Water";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MISSION;
 	value = 10;
@@ -454,7 +454,7 @@ instance SpecialWater(C_Item)
 
 instance KalomsRecipe(C_Item)
 {
-	name = "Receptura Cor Kaloma";
+	name = "Kalom's Recipe";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 100;
@@ -462,7 +462,7 @@ instance KalomsRecipe(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	description = name;
-	text[0] = "Przepis na napój uzdrawiaj¹cy.";
+	text[0] = "The recipe for a healing potion.";
 	text[5] = NAME_Value;
 	count[5] = value;
 	on_state[0] = Use_KalomsRecipe;
@@ -485,7 +485,7 @@ func void Use_KalomsRecipe()
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"To zdaje siê mieæ sens, kiedy czytaæ to od koñca.");
+	Doc_PrintLines(nDocID,1,"It seems to make sense if you read it backwards.");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"          - Kalom");
 	Doc_Show(nDocID);
@@ -494,7 +494,7 @@ func void Use_KalomsRecipe()
 
 instance ItWrWorldmap(C_Item)
 {
-	name = "Mapa kolonii";
+	name = "Map of the Colony";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -503,9 +503,8 @@ instance ItWrWorldmap(C_Item)
 	scemeName = "MAP";
 	on_state[0] = UseWorldmap;
 	description = name;
-	text[0] = "Niestety, brakuje sporego";
-	text[1] = "obszaru na po³udniowym";
-	text[2] = "zachodzie.";
+	text[0] = "Unfortunately, a big territory in the";
+	text[1] = "southwest is missing.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -524,7 +523,7 @@ func void UseWorldmap()
 
 instance ItWrOCmap(C_Item)
 {
-	name = "Mapa";
+	name = "Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 40;
@@ -532,7 +531,7 @@ instance ItWrOCmap(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UseOCmap;
-	description = "Plan Starego Obozu";
+	description = "Overview Old Camp";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -550,7 +549,7 @@ func void UseOCmap()
 
 instance ItWrNCmap(C_Item)
 {
-	name = "Mapa";
+	name = "Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 40;
@@ -558,7 +557,7 @@ instance ItWrNCmap(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UseNCmap;
-	description = "Plan Nowego Obozu";
+	description = "Overview New Camp";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -576,7 +575,7 @@ func void UseNCmap()
 
 instance ItWrPSImap(C_Item)
 {
-	name = "Mapa";
+	name = "Map";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 40;
@@ -584,7 +583,7 @@ instance ItWrPSImap(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = UsePSImap;
-	description = "Plan obozu na bagnie";
+	description = "Overview Swamp Camp";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -602,7 +601,7 @@ func void UsePSImap()
 
 instance ItWrPinup(C_Item)
 {
-	name = "Szkic";
+	name = "Sketch";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 60;
@@ -628,7 +627,7 @@ func void UsePinUp()
 
 instance ItWrDieVerurteilten(C_Item)
 {
-	name = "Skazañcy";
+	name = "The Convicts";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MISSION;
 	value = 100;
@@ -642,7 +641,7 @@ instance ItWrDieVerurteilten(C_Item)
 
 instance ItWr_Fire_Letter_01(C_Item)
 {
-	name = "Zapieczêtowane pismo";
+	name = "Sealed Letter";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -650,8 +649,8 @@ instance ItWr_Fire_Letter_01(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = UseFireletter;
 	scemeName = "MAPSEALED";
-	description = "List do Magów Ognia";
-	text[1] = "Nie wolno z³amaæ pieczêci!";
+	description = "Letter to the Magicians of Fire";
+	text[1] = "The seal must not be opened!";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -667,12 +666,12 @@ func void UseFireletter()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0," ");
-	Doc_PrintLine(nDocID,0,"Czcigodny Mistrzu,");
+	Doc_PrintLine(nDocID,0,"Venerable Master,");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
-	Doc_PrintLines(nDocID,0,"Twój ostatni list nape³ni³ nas wielkim smutkiem. Po rozwa¿eniu sprawy, niniejszym przedstawiamy nasze stanowisko w tej sprawie: Bractwo sta³o siê powa¿nym zagro¿eniem dla ca³ej kolonii. Jego dzia³ania nara¿aj¹ na niebezpieczeñstwo nasze delikatne pertraktacje handlowe z Jego Wysokoœci¹, a tym samym - przysz³e losy ca³ego królestwa. Dlatego zalecamy wys³anie do obozu na bagnie grupy zwiadowców, którzy ustal¹ z jakiego¿ piekielnego Ÿród³a cz³onkowie Bractwa czerpi¹ sw¹ moc. Posiadaj¹c te informacje moglibyœmy po³¹czyæ nasze wysi³ki w celu rych³ego za¿egnania niebezpieczeñstwa. Nasi Bracia przeszukuj¹ obecnie prastare ksiêgi w poszukiwaniu choæby najmniejszego znaku, który móg³by naprowadziæ nas na w³aœciwy trop. O wynikach tych poszukiwañ poinformujemy zwyk³¹ drog¹.");
+	Doc_PrintLines(nDocID,0,"Your last missive was received with great anxiety. We have conferred upon the matter and are sending you our reply in this letter. The Brotherhood is dangerous. It endangers the further success of our trade agreement, which in turn endangers the King, the entirety of the realm and your own life. Therefore, you should dispatch scouts to determine what gods and what knowledge their magic powers are derived from. Once you have discovered this, we will inform the priests of your findings, in the hopes of putting an end to the whole affair through combined efforts. At this very moment, the scholars are studying the ancient books. We will report our findings to you at once, using the usual means of communication.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Niech Innos ma w opiece nas wszystkich.");
+	Doc_PrintLine(nDocID,0,"May Innos protect us all");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -684,7 +683,7 @@ func void UseFireletter()
 
 instance ItWr_Fire_Letter_02(C_Item)
 {
-	name = "Otwarty list";
+	name = "Opened Letter";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 0;
@@ -692,7 +691,7 @@ instance ItWr_Fire_Letter_02(C_Item)
 	material = MAT_LEATHER;
 	on_state[0] = UseFireletter2;
 	scemeName = "MAP";
-	description = "List do Magów Ognia";
+	description = "Letter to the Magicians of Fire";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -707,12 +706,12 @@ func void UseFireletter2()
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
 	Doc_SetMargins(nDocID,-1,50,50,50,50,1);
 	Doc_PrintLine(nDocID,0," ");
-	Doc_PrintLine(nDocID,0,"Czcigodny Mistrzu Xardasie,");
+	Doc_PrintLine(nDocID,0,"Venerable Master Xardas,");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
-	Doc_PrintLines(nDocID,0,"Twój ostatni list nape³ni³ nas wielkim smutkiem. Po rozwa¿eniu sprawy, niniejszym przedstawiamy nasze stanowisko w tej sprawie: Bractwo sta³o siê powa¿nym zagro¿eniem dla ca³ej kolonii. Jego dzia³ania nara¿aj¹ na niebezpieczeñstwo nasze delikatne pertraktacje handlowe z Jego Wysokoœci¹, a tym samym - przysz³e losy ca³ego królestwa. Dlatego zalecamy wys³anie do obozu na bagnie grupy zwiadowców, którzy ustal¹ z jakiego¿ piekielnego Ÿród³a cz³onkowie Bractwa czerpi¹ sw¹ moc. Powstrzymanie Sekty Œni¹cego ma znaczenie priorytetowe! Natychmiast po otrzymaniu twojej odpowiedzi, poinformujemy kap³anów Innosa o twoich odkryciach. Nasi uczeni przeszukuj¹ obecnie prastare ksiêgi w poszukiwaniu choæby najmniejszego znaku, który móg³by naprowadziæ nas na w³aœciwy trop. O wynikach tych poszukiwañ poinformujemy zwyk³¹ drog¹.");
+	Doc_PrintLines(nDocID,0,"Your last missive was received with great anxiety. We have conferred upon the matter and are sending you our reply in this letter. The Brotherhood is dangerous. It endangers the further success of our trade agreement, which in turn endangers the King, the entirety of the realm and your own life. Therefore, you should dispatch scouts to determine what gods and what knowledge their magic powers are derived from. It is our duty to dispel the sect and gain their knowledge to prevent anyone from using it for evil purposes. As soon as your answer reaches us, we will inform the priests of Innos of your findings. At this very moment, the scholars are studying the ancient books. We will report our findings to you at once, using the usual means of communication.");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Niech Innos ma w opiece nas wszystkich.");
+	Doc_PrintLine(nDocID,0,"May Innos protect us all");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
@@ -723,131 +722,131 @@ func void UseFireletter2()
 
 instance ItKe_Gomez_01(C_Item)
 {
-	name = "Klucz Gomeza";
+	name = "Gomez' Bowl";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_04.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera skrzynie Gomeza.";
-	text[1] = "Otwiera sk³adowisko w piwnicy Magnatów.";
+	text[0] = "Opens Gomez' chests.";
+	text[1] = "Opens the store in the Ore Barons' cellar.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ItKey_RB_01(C_Item)
 {
-	name = "Klucz Ry¿owego Ksiêcia";
+	name = "Rice Lord's Bowl";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera skrzyniê Ry¿owego Ksiêcia.";
+	text[0] = "Opens Rice Lord's chest.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance itkey_ob_smith_01(C_Item)
 {
-	name = "¯elazny klucz";
+	name = "Iron Key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera drzwi w kuŸni.";
+	text[0] = "Opens the door to the smithy's store.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ItKe_Storage_01(C_Item)
 {
-	name = "Klucz do sk³adowiska";
+	name = "Key to the Store";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_03.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera g³ówne drzwi do sk³adowiska ";
-	text[1] = "w piwnicy Magnatów.";
+	text[0] = "Opens the main door of the store";
+	text[1] = "in the Ore Barons' cellar.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
 
 instance ItKe_OM_01(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Magazyn Santino.";
-	text[1] = "Wy¿sze miejsce wymiany.";
-	text[2] = "Stara Kopalnia";
+	text[0] = "Santino's store .";
+	text[1] = "Upper exchange place.";
+	text[2] = "Old Mine";
 };
 
 instance ItKe_OM_02(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera skrzyniê Aarona ";
-	text[1] = "w Starej Kopalni.";
+	text[0] = "Opens Aaron's chest";
+	text[1] = "in the Old Mine.";
 };
 
 instance ItKe_OM_03(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_03.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera skrzynie w sk³adowisku";
-	text[1] = "Starej Kopalni.";
+	text[0] = "Opens the chests in the";
+	text[1] = "store shed of the Old Mine.";
 };
 
 instance ItKe_OM_04(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_04.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Magazyn Alberto.";
-	text[1] = "Ni¿sze miejsce wymiany.";
+	text[0] = "Alberto's store.";
+	text[1] = "Lower exchange place.";
 };
 
 instance itke_omcamp_01(C_Item)
 {
-	name = "Klucz do skrzyni";
+	name = "Key to a Chest";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_02.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Otwiera skrzyniê Garaza";
-	text[1] = "przed Star¹ Kopalni¹.";
+	text[0] = "Opens Garaz's chest";
+	text[1] = "near the Old Mine.";
 };
 
 instance ItFo_OM_Beer_01(C_Item)
 {
-	name = "Mocne piwo";
+	name = "Strong Beer";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = 30;
@@ -890,7 +889,7 @@ var int riddle6;
 
 instance theriddle1(C_Item)
 {
-	name = "Stara ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -918,7 +917,7 @@ func void Usetheriddle1()
 	Doc_PrintLine(nDocID,0,"-----------");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Ten, który zechce wyrzec siê œcie¿ki wystêpku i b³êdu i zechce pod¹¿aæ drog¹ prawa i porz¹dku, pozna prawdziwe Ÿród³o mojej potêgi. Dane mu bêdzie u¿yæ jej, by skruszyæ ogniwa tego œwiata i posi¹œæ najwy¿sz¹ z nagród - Chromanin.");
+	Doc_PrintLines(nDocID,0,"He who is willing to renounce all depravity and wanders on the path of righteousness, shall know where the source of my power lies hidden. So that he might use it to break the chains of this world and prove worthy to receive Chromanin.");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
@@ -929,13 +928,13 @@ func void Usetheriddle1()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Mêdrzec stara siê zobaczyæ sprawê w jej ca³oœci, nim zdecyduje siê podj¹æ trudy wyzwania.");
+	Doc_PrintLines(nDocID,1,"The Wise One sees to having a general overview before he dedicates himself to his next mission.");
 	Doc_Show(nDocID);
 	if(riddle1 == FALSE)
 	{
 		Log_CreateTopic(theriddle_log,LOG_MISSION);
 		Log_SetTopicStatus(theriddle_log,LOG_RUNNING);
-		B_LogEntry(theriddle_log,"Zabra³em z Wie¿y Mgie³ tajemnicz¹ ksiêgê nale¿¹c¹ do szkieletu maga. To Chromanin - magiczna zagadka pozostawiona przez jej potê¿nego twórcê... Mêdrzec stara siê zobaczyæ sprawê w jej ca³oœci, nim zdecyduje siê podj¹æ trudy wyzwania... Hmmm! Nie pojmujê jego zamys³u, ale mo¿e z czasem uda mi siê rozwik³aæ tê tajemnicê.");
+		B_LogEntry(theriddle_log,"I took a very strange tome from the Skeleton Mage in the Fog Tower. Chromanin! It seems to be a riddle a mysterious stranger set to this world: ...The Wise One sees to having a general overview before he dedicates himself to his next mission... Mmmh! I don't quite understand yet, but perhaps in time I will.");
 		Wld_InsertItem(theriddle2,"CASTLE_TOWER_TOP");
 		riddle1 = TRUE;
 	};
@@ -944,7 +943,7 @@ func void Usetheriddle1()
 
 instance theriddle2(C_Item)
 {
-	name = "Stara Ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -972,7 +971,7 @@ func void Usetheriddle2()
 	Doc_PrintLine(nDocID,0,"-----------");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Wizje Chromanina, tajemne g³osy z zamierzch³ej przesz³oœci, rozjaœni³y mój umys³. Nie porzucê ich za ¿adne skarby tego œwiata. Mój los bêdzie odt¹d zwi¹zany z nimi.");
+	Doc_PrintLines(nDocID,0,"Carried from the tides of time, Chromanin's visions have opened my eyes. No price could be high enough to ever renounce my faith in them, for it touched my heart too intensely.");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
@@ -983,22 +982,21 @@ func void Usetheriddle2()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"To, co kiedyœ rozdzielono, zostanie znów po³¹czone po bolesnej chwili roz³¹ki.");
+	Doc_PrintLines(nDocID,1,"What is devided will be reunited, after being massively separated for a short time.");
 	Doc_Show(nDocID);
 	if(riddle2 == FALSE)
 	{
 		B_GiveXP(300);
-		B_LogEntry(theriddle_log,"Znalaz³em drug¹ ksiêgê zatytu³owan¹ Chromanin. Po raz kolejny - przedstawia sob¹ zagadkê... To, co kiedyœ rozdzielono, zostanie znów po³¹czone po bolesnej chwili roz³¹ki...");
+		B_LogEntry(theriddle_log,"I found a second book of the name Chromanin. Again, it sets a riddle to me... What is devided will be reunited, after being massively separated for a short time... ");
 		Snd_Play("FoundRiddlersBook");
 		Wld_InsertItem(theriddle3,"FP_SLEEP_OW_BLOODFLY_01_02");
 		riddle2 = TRUE;
 	};
 };
 
-
 instance theriddle3(C_Item)
 {
-	name = "Stara ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -1026,7 +1024,7 @@ func void Usetheriddle3()
 	Doc_PrintLine(nDocID,0,"-----------");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"O, staro¿ytni Bogowie! Jak to mo¿liwe, ¿e niegodny œmiertelnik, jakim bez w¹tpienia jestem, otrzyma³ tak cenne dziedzictwo waszej potêgi! Obym tylko nie zb³¹dzi³ s³owem lub uczynkiem i nie straci³ mego skarbu!");
+	Doc_PrintLines(nDocID,0,"Oh, Ancient Gods. How can it be that a man like me, simple and unworthy, may receive such great a legacy. I feel great fear to lose all of it again by a slight faltering in word or deed.");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
@@ -1037,12 +1035,12 @@ func void Usetheriddle3()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"M¹dry rybak próbuje czasem szczêœcia po drugiej stronie jeziora.");
+	Doc_PrintLines(nDocID,1,"The wise fisherman occasionally tries to get lucky on the other side of the lake.");
 	Doc_Show(nDocID);
 	if(riddle3 == FALSE)
 	{
 		B_GiveXP(500);
-		B_LogEntry(theriddle_log,"To ju¿ trzecia ksiêga. Chyba zaczynam pojmowaæ, o co w tym wszystkim chodzi... M¹dry rybak próbuje czasem szczêœcia po drugiej stronie jeziora...");
+		B_LogEntry(theriddle_log,"I found the third book. I think I am beginning to understand the way this works! ...The wise fisherman occasionally tries to get lucky on the other side of the lake...");
 		Snd_Play("FoundRiddlersBook");
 		Wld_InsertItem(theriddle4,"FP_SLEEP_OW_LURKER_NC_LAKE_02");
 		riddle3 = TRUE;
@@ -1052,7 +1050,7 @@ func void Usetheriddle3()
 
 instance theriddle4(C_Item)
 {
-	name = "Stara ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -1080,7 +1078,7 @@ func void Usetheriddle4()
 	Doc_PrintLine(nDocID,0,"-----------");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Nie œmiem nawet marzyæ o znalezieniu siê w pobli¿u potê¿nego Chromanina. Dni p³aczu odesz³y w niepamiêæ. Tak niewiele dzieli mnie od osi¹gniêcia absolutnej perfekcji!");
+	Doc_PrintLines(nDocID,0,"I dare not hope to be in the presence of Chromanin one day. Gone are the days of wasting and wailing. So easy it will be to acheive absolute perfection. I'm not far from it!");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
@@ -1091,12 +1089,12 @@ func void Usetheriddle4()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Zapomniano ju¿ czyny tych, co niegdyœ weszli na pok³ad.");
+	Doc_PrintLines(nDocID,1,"Long forgotten are the deeds of those who once were aboard.");
 	Doc_Show(nDocID);
 	if(riddle4 == FALSE)
 	{
 		B_GiveXP(700);
-		B_LogEntry(theriddle_log,"Numer cztery. Zastanawiam siê, czy ten cz³owiek nie wodzi mnie przypadkiem za nos!... Zapomniano ju¿ czyny tych, co niegdyœ weszli na pok³ad...");
+		B_LogEntry(theriddle_log,"Number four. I am beginning to ask myself if I am fooled around by this guy! ...Long forgotten are the deeds of those who once were aboard...");
 		Snd_Play("FoundRiddlersBook");
 		Wld_InsertItem(theriddle5,"LOCATION_25_01");
 		riddle4 = TRUE;
@@ -1106,7 +1104,7 @@ func void Usetheriddle4()
 
 instance theriddle5(C_Item)
 {
-	name = "Stara ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -1135,7 +1133,7 @@ func void Usetheriddle5()
 	Doc_PrintLine(nDocID,0,"-----------");
 	Doc_SetFont(nDocID,-1,"font_10_book.TGA");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLines(nDocID,0,"Ale nie bêdê sam kroczy³ po tej œcie¿ce. Zaszczyt przypad³ mi, ale muszê podzieliæ siê m¹ potêg¹ z tymi, którzy oka¿¹ siê godni, by pod¹¿yæ w moje œlady. Mam tylko nadziejê, ¿e mnie odnajd¹...");
+	Doc_PrintLines(nDocID,0,"But I shall not walk this path alone. This honor is mine. I must accept to share the power within myself with the worthy ones who are to come and find me. I hope they're coming soon...");
 	Doc_SetMargins(nDocID,-1,30,20,275,20,1);
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
@@ -1146,12 +1144,12 @@ func void Usetheriddle5()
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
 	Doc_PrintLine(nDocID,1,"");
-	Doc_PrintLines(nDocID,1,"Znajdziesz mnie tam, gdzie wszystko siê zaczê³o.");
+	Doc_PrintLines(nDocID,1,"You will find me where it all began.");
 	Doc_Show(nDocID);
 	if(riddle5 == FALSE)
 	{
 		B_GiveXP(850);
-		B_LogEntry(theriddle_log,"To ju¿ chyba ostatnia ksiêga. Ciekawe, kogo lub co napotkam u kresu mej podró¿y... Znajdziesz mnie tam, gdzie wszystko siê zaczê³o...");
+		B_LogEntry(theriddle_log,"This one seems to be the last. I'm eager to find out who or what I'm going to encounter... You will find me where it all began...");
 		Snd_Play("FoundRiddlersBook");
 		Wld_InsertNpc(Bau_940_Riddler,"");
 		riddler = Hlp_GetNpc(Bau_940_Riddler);
@@ -1163,7 +1161,7 @@ func void Usetheriddle5()
 
 instance theriddle6(C_Item)
 {
-	name = "Stara ksiêga";
+	name = "Old Book";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 50;
@@ -1208,7 +1206,7 @@ func void Usetheriddle6()
 	if(riddle6 == FALSE)
 	{
 		B_GiveXP(1000);
-		B_LogEntry(theriddle_log,"Tajemniczy nieznajomy nie ¿yje. Demony go zabi³y! Pomiêdzy nim, a tymi istotami z piek³a rodem musia³a istnieæ jakaœ wiêŸ. Inaczej nie by³by w stanie tutaj wróciæ. NajwyraŸniej chcia³ zabraæ ten sekret do grobu.");
+		B_LogEntry(theriddle_log,"The mysterious stranger is dead. Those demons have killed him. There seemed to be some kind of bond between him an those creatures from hell. Otherwise, he wouldn't have come back to this place. He's taken the secret he apparently wanted tho share to the grave.");
 		Log_SetTopicStatus(theriddle_log,LOG_SUCCESS);
 		Snd_Play("FoundRiddler");
 		Wld_InsertNpc(SkeletonMage,"OW_FOGDUNGEON_36_MOVEMENT");
@@ -1225,14 +1223,14 @@ func void Usetheriddle6()
 
 instance itkey_arena_orc_01(C_Item)
 {
-	name = "Klucz szamana";
+	name = "Shaman's key";
 	mainflag = ITEM_KAT_NONE;
 	flags = 0;
 	value = 0;
 	visual = "ItKe_Key_01.3ds";
 	material = MAT_METAL;
 	description = name;
-	text[0] = "Klucz Kar-Nakha.";
+	text[0] = "This key belonged to Kar-Nakh.";
 };
 
 instance itfo_potion_elixier_crawler(C_Item)
@@ -1244,15 +1242,15 @@ instance itfo_potion_elixier_crawler(C_Item)
 	visual = "ItFo_Potion_Elixier_Egg.3ds";
 	material = MAT_GLAS;
 	scemeName = "POTIONFAST";
-	description = "Napój z pe³zaczy";
-	text[0] = "Pozwala nawi¹zaæ kontakt ze Œni¹cym";
+	description = "Crawler Potion";
+	text[0] = "Allows contact to the Sleeper.";
 	text[5] = NAME_Value;
 	count[5] = Value_ElixierEgg;
 };
 
 instance itwrworldmap_mission(C_Item)
 {
-	name = "Mapa kolonii Grahama";
+	name = "Graham's Map of the Colony";
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
 	value = 60;
@@ -1261,8 +1259,8 @@ instance itwrworldmap_mission(C_Item)
 	scemeName = "MAP";
 	on_state[0] = useworldmap_mission;
 	description = name;
-	text[0] = "Osobista mapa";
-	text[1] = "Grahama.";
+	text[0] = "Graham's personal map.";
+//	text[1] = "";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -1283,7 +1281,7 @@ func void useworldmap_mission()
 
 instance ricelords_ring(C_Item)
 {
-	name = "Pierœcieñ Ry¿owego Ksiêcia";
+	name = "Rice Lord's Ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING || ITEM_MISSION;
 	value = 50;
@@ -1292,7 +1290,7 @@ instance ricelords_ring(C_Item)
 	material = MAT_METAL;
 	on_equip = equip_ricelords_ring;
 	on_unequip = unequip_ricelords_ring;
-	description = "Pierœcieñ Ry¿owego Ksiêcia";
+	description = "Rice Lord's Ring";
 	text[2] = NAME_Bonus_Str;
 	count[2] = 3;
 	text[5] = NAME_Value;
@@ -1313,7 +1311,7 @@ func void unequip_ricelords_ring()
 
 instance bloodwyns_schwert(C_Item)
 {
-	name = "Miecz Bloodwyna";
+	name = "Bloodwyn's Sword";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_SWD | ITEM_MULTI;
 	material = MAT_METAL;
@@ -1345,7 +1343,7 @@ instance butchs_amulett(C_Item)
 	material = MAT_METAL;
 	on_equip = equip_schutzamulett_butch;
 	on_unequip = unequip_schutzamulett_butch;
-	description = "Amulet Butcha";
+	description = "Butch's Amulet";
 	text[2] = NAME_Prot_Edge;
 	count[2] = 5;
 	text[5] = NAME_Value;
@@ -1368,20 +1366,20 @@ func void unequip_schutzamulett_butch()
 
 instance itat_claws_snapper(C_Item)
 {
-	name = "Pazury z paskudnego zêbacza";
+	name = "Snapper Claws";
 	mainflag = ITEM_KAT_NONE;
 	flags = ITEM_MULTI;
 	value = Value_Krallen;
 	visual = "ItAt_Claws_01.3DS";
 	material = MAT_LEATHER;
-	description = name;
+	description = "Leader of the Pack's Claws";
 	text[4] = NAME_Value;
 	count[4] = Value_Krallen;
 };
 
 instance francos_amulett(C_Item)
 {
-	name = "Amulet Franko";
+	name = "Franco's Amulet";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_AMULET;
 	value = 320;
@@ -1390,7 +1388,7 @@ instance francos_amulett(C_Item)
 	material = MAT_METAL;
 	on_equip = equip_francosamulett;
 	on_unequip = unequip_francosamulett;
-	description = "Amulet Franko";
+	description = "Franco's amulet";
 	text[2] = NAME_Bonus_Dex;
 	count[2] = 10;
 	text[5] = NAME_Value;
@@ -1411,7 +1409,7 @@ func void unequip_francosamulett()
 
 instance scarsring(C_Item)
 {
-	name = "Stary pierœcieñ";
+	name = "Old Ring";
 	mainflag = ITEM_KAT_MAGIC;
 	flags = ITEM_RING;
 	value = 250;
@@ -1420,8 +1418,8 @@ instance scarsring(C_Item)
 	material = MAT_METAL;
 	on_equip = Equip_MordragsRing;
 	on_unequip = UnEquip_MordragsRing;
-	description = "Stary pierœcieñ";
-	text[2] = "Staro wygl¹daj¹ca bi¿uteria.";
+	description = "Old Ring";
+	text[2] = "This jewelry looks very old.";
 	text[5] = NAME_Value;
 	count[5] = value;
 };
@@ -1440,7 +1438,7 @@ func void unequip_scarsring()
 
 instance garrets_pickaxe(C_Item)
 {
-	name = "Kilof Garreta";
+	name = "Garret's Pickaxe";
 	mainflag = ITEM_KAT_NF;
 	flags = ITEM_2HD_AXE | ITEM_MULTI | ITEM_MISSION;
 	material = MAT_WOOD;
@@ -1467,7 +1465,7 @@ var int huntblackwolf;
 
 instance ITWR_HUNTER_01(C_Item)
 {
-	name = "Strona z dziennika";
+	name = "Page from the Journal";
 	mainflag = ITEM_KAT_DOCS;
 	flags = 0;
 	value = 15;
@@ -1475,11 +1473,11 @@ instance ITWR_HUNTER_01(C_Item)
 	material = MAT_LEATHER;
 	scemeName = "MAP";
 	on_state[0] = usetagebuch;
-	description = "Strona z dziennika";
-	text[0] = "pewnej grupki myœliwych,";
-	text[1] = "którzy najwidoczniej polowali";
-	text[2] = "na wschodzie kolonii na";
-	text[3] = "stado wilków.";
+	description = "Page from the Journal";
+	text[0] = "of a group of hunters,";
+	text[1] = "who apparently hunted";
+	text[2] = "on the east of the colony";
+	text[3] = "on pack of wolves.";
 };
 
 
@@ -1493,16 +1491,16 @@ func void usetagebuch()
 	Doc_SetFont(nDocID,-1,"font_15_book.tga");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_SetFont(nDocID,-1,"font_10_book.tga");
-	Doc_PrintLine(nDocID,0,"Dzieñ 71");
-	Doc_PrintLines(nDocID,0,"Wyruszyliœmy we wschodnim kierunku. S³yszeliœmy pog³oski o stadzie wilczurów, prowadzonym przez czarnego wilka.");
+	Doc_PrintLine(nDocID,0,"Day 71");
+	Doc_PrintLines(nDocID,0,"We headed in the east direction. We've heard rumors about a pack of wolves leaded by black wolf.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Dzieñ 75");
-	Doc_PrintLines(nDocID,0,"Wznieœliœmy nasz obóz w lesie, niedaleko urwiska przy morzu. Jesteœmy grupk¹ doœwiadczonych myœliwych, tak ¿e nie powinno byæ ¿adnych problemów z tym stadem. Myœliwy Aidan jest w stanie s³ono nam zap³aciæ za skórê tego czarnego wilka.");
+	Doc_PrintLine(nDocID,0,"Day 75");
+	Doc_PrintLines(nDocID,0,"We setted up our camp in the forest, near the cliff by the sea. We are group of experienced hunters, so there should be no problems with this pack. Aidan will pay richly for the skin of this black wolf.");
 	Doc_PrintLine(nDocID,0,"");
 	Doc_PrintLine(nDocID,0,"");
-	Doc_PrintLine(nDocID,0,"Dzieñ 81");
-	Doc_PrintLines(nDocID,0,"Jest œrodek nocy, a my utknêliœmy w naszym obozowisku. Nic nie widaæ, chocia¿ s³ychaæ jak ta sfora tu³a siê wokó³ naszego obozu. Wygl¹da na to, ¿e jesteœmy otoczeni. Mam tylko nadziejê, ¿e ten czarny wi...");
+	Doc_PrintLine(nDocID,0,"Day 81");
+	Doc_PrintLines(nDocID,0,"It's the middle of the night, and we're stuck in our camp. We can not see anything, although we can hear the pack around our camp. It looks like we're surrounded. I just hope that this black wo...");
 	Doc_Show(nDocID);
 	if((huntblackwolf == FALSE) && Npc_IsPlayer(self))
 	{
@@ -1513,14 +1511,14 @@ func void usetagebuch()
 		hunt_wolf = LOG_RUNNING;
 		Log_CreateTopic(CH1_BLACKWOLF,LOG_MISSION);
 		Log_SetTopicStatus(CH1_BLACKWOLF,LOG_RUNNING);
-		B_LogEntry(CH1_BLACKWOLF,"Na wschodzie kolonii znalaz³em pozosta³oœci po obozie myœliwych. Wygl¹da na to, ¿e byli w trakcie polowania na czarnego wilka, który przewodzi³ ca³emu stadu. Gdzieœ w lesie musi siê jeszcze krêciæ ten wilk.");
+		B_LogEntry(CH1_BLACKWOLF,"I found remnants of hunters camp on the east of the colony. It looks like they were hunting on the black wolf which is leading the pack. That wolf must be still somewhere in the forest.");
 	};
 };
 
 
 instance itfofleischeintopf(C_Item)
 {
-	name = "Gulasz";
+	name = "Stew";
 	mainflag = ITEM_KAT_FOOD;
 	flags = ITEM_MULTI;
 	value = Value_Ragout;
